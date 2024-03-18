@@ -1,12 +1,21 @@
 /* surveyComponent.css */
-/* surveyComponent.css */
-
 #charts-container {
   display: flex;
+  flex-direction: column; /* Display children vertically */
+  align-items: center; /* Align items horizontally in the center */
   overflow-x: auto;
+  margin-top: 20px; /* Add margin to separate from the above content */
+}
+
+.bar-chart-container {
+  width: 90vw; /* Bar chart takes up 90% of the page width */
+}
+
+.doughnut-chart-container {
+  width: 30vw; /* Doughnut chart takes up 100% of the container */
 }
 
 .chart-container {
-  width: 300px; /* Adjust the width as needed */
-  margin-right: 20px; /* Add some spacing between charts */
+  margin-bottom: 20px; /* Add some spacing between charts */
 }
+
