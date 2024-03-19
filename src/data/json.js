@@ -1,1172 +1,1339 @@
 export const json = {
- "title": "Digital Needs Assessment",
- "logoPosition": "right",
- "pages": [
-  {
-   "name": "page1",
-   "elements": [
-    {
-     "type": "radiogroup",
-     "name": "question1",
-     "title": "How would you rate your digital marketing efforts?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Our organization doesn't do digital marketing but we'd like to learn"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization is starting to engage with customers through digital marketing"
-      },
-      {
-       "value": "1.00",
-       "text": "We have developed a digital marketing strategy and are beginning to implement specific digital marketing initiatives"
-      },
-      {
-       "value": "1.25",
-       "text": "Our organization puts significant effort into digital marketing across multiple channels to engage customers but we do not have clear metrics and mechanisms to report on the efficacy of these initiatives."
-      },
-      {
-       "value": "1.50",
-       "text": "Our organization focuses onenhancing customer experience through digital channels such as web, mobile and social media with a clear strategy, budget, goals and performance metrics for each channel."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question2",
-     "title": "Do you provide your customers with online access (e.g. website, eCommerce, portal, mobile app)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not provide our customers with online access"
-      },
-      {
-       "value": "0.75",
-       "text": "We provide basic online access (e.g. website) to our customers."
-      },
-      {
-       "value": "1.00",
-       "text": "We provide online access to our customers bue services are limited and not seamlessly"
-      },
-      {
-       "value": "1.25",
-       "text": "We provide a wide range of services through online access to our customer but these are not seamlessly integrated."
-      },
-      {
-       "value": "1.50",
-       "text": "The customers are provided with seamless and integrated access to all services from a single system."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question3",
-     "title": "To what extent are the customer related processes digitized (e.g. customer relationship management, customer support)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Customer related information and processes are all manual."
-      },
-      {
-       "value": "0.75",
-       "text": "We have started to identify customer related processses that can be digitized"
-      },
-      {
-       "value": "1.00",
-       "text": "We have digitized some of our customer related processes"
-      },
-      {
-       "value": "1.25",
-       "text": "Customer related processes are mostly digitized and automated, requiring limited manual intervention"
-      },
-      {
-       "value": "1.50",
-       "text": "Customer related processes are all digitized and automated."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question5",
-     "title": "To what extent do you utilize data to understand needs of your customers and to manage their experience?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not use data to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "0.75",
-       "text": "We understand the importance of the data to address customer needs but have a limited know-how on the leverage data."
-      },
-      {
-       "value": "1.00",
-       "text": "We utilize few data points to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "1.25",
-       "text": "our customer experience design is informaed by qualititive and quantitative customer insights drawn from data."
-      },
-      {
-       "value": "1.50",
-       "text": "We manage customer experience by continuously monitoring several data points and balancing customer needs with the cost to deliver."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question6",
-     "title": "How does your organization collect customer feedback?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not collect customer feedback"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization collects customer feedback through word of mouth, or manually recording customer complaints"
-      },
-      {
-       "value": "1.00",
-       "text": "Our organization collects customer feedback by sending out surveys on a periodic basis e.g. monthly, semi-annually, annually."
-      },
-      {
-       "value": "1.25",
-       "text": "our organization collects customer feedback through certain digital channels to understand ongoing customer experience."
-      },
-      {
-       "value": "1.50",
-       "text": "feedback is captured across all channels of the customer journey to understand ongoing customer experience."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    }
-   ],
-   "title": "Customer Experience"
-  },
-  {
-   "name": "page2",
-   "elements": [
-    {
-     "type": "radiogroup",
-     "name": "question4",
-     "title": "How would you rate your digital marketing efforts?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Our organization doesn't do digital marketing but we'd like to learn"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization is starting to engage with customers through digital marketing"
-      },
-      {
-       "value": "1.00",
-       "text": "We have developed a digital marketing strategy and are beginning to implement specific digital marketing initiatives"
-      },
-      {
-       "value": "1.25",
-       "text": "Our organization puts significant effort into digital marketing across multiple channels to engage customers but we do not have clear metrics and mechanisms to report on the efficacy of these initiatives."
-      },
-      {
-       "value": "1.50",
-       "text": "Our organization focuses onenhancing customer experience through digital channels such as web, mobile and social media with a clear strategy, budget, goals and performance metrics for each channel."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question7",
-     "title": "Do you provide your customers with online access (e.g. website, eCommerce, portal, mobile app)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not provide our customers with online access"
-      },
-      {
-       "value": "0.75",
-       "text": "We provide basic online access (e.g. website) to our customers."
-      },
-      {
-       "value": "1.00",
-       "text": "We provide online access to our customers bue services are limited and not seamlessly"
-      },
-      {
-       "value": "1.25",
-       "text": "We provide a wide range of services through online access to our customer but these are not seamlessly integrated."
-      },
-      {
-       "value": "1.50",
-       "text": "The customers are provided with seamless and integrated access to all services from a single system."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question8",
-     "title": "To what extent are the customer related processes digitized (e.g. customer relationship management, customer support)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Customer related information and processes are all manual."
-      },
-      {
-       "value": "0.75",
-       "text": "We have started to identify customer related processses that can be digitized"
-      },
-      {
-       "value": "1.00",
-       "text": "We have digitized some of our customer related processes"
-      },
-      {
-       "value": "1.25",
-       "text": "Customer related processes are mostly digitized and automated, requiring limited manual intervention"
-      },
-      {
-       "value": "1.50",
-       "text": "Customer related processes are all digitized and automated."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question9",
-     "title": "To what extent do you utilize data to understand needs of your customers and to manage their experience?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not use data to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "0.75",
-       "text": "We understand the importance of the data to address customer needs but have a limited know-how on the leverage data."
-      },
-      {
-       "value": "1.00",
-       "text": "We utilize few data points to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "1.25",
-       "text": "our customer experience design is informaed by qualititive and quantitative customer insights drawn from data."
-      },
-      {
-       "value": "1.50",
-       "text": "We manage customer experience by continuously monitoring several data points and balancing customer needs with the cost to deliver."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question10",
-     "title": "How does your organization collect customer feedback?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not collect customer feedback"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization collects customer feedback through word of mouth, or manually recording customer complaints"
-      },
-      {
-       "value": "1.00",
-       "text": "Our organization collects customer feedback by sending out surveys on a periodic basis e.g. monthly, semi-annually, annually."
-      },
-      {
-       "value": "1.25",
-       "text": "our organization collects customer feedback through certain digital channels to understand ongoing customer experience."
-      },
-      {
-       "value": "1.50",
-       "text": "feedback is captured across all channels of the customer journey to understand ongoing customer experience."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    }
-   ],
-   "title": "Products & Services "
-  },
-  {
-   "name": "page3",
-   "elements": [
-    {
-     "type": "radiogroup",
-     "name": "question11",
-     "title": "How would you rate your digital marketing efforts?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Our organization doesn't do digital marketing but we'd like to learn"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization is starting to engage with customers through digital marketing"
-      },
-      {
-       "value": "1.00",
-       "text": "We have developed a digital marketing strategy and are beginning to implement specific digital marketing initiatives"
-      },
-      {
-       "value": "1.25",
-       "text": "Our organization puts significant effort into digital marketing across multiple channels to engage customers but we do not have clear metrics and mechanisms to report on the efficacy of these initiatives."
-      },
-      {
-       "value": "1.50",
-       "text": "Our organization focuses onenhancing customer experience through digital channels such as web, mobile and social media with a clear strategy, budget, goals and performance metrics for each channel."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question12",
-     "title": "Do you provide your customers with online access (e.g. website, eCommerce, portal, mobile app)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not provide our customers with online access"
-      },
-      {
-       "value": "0.75",
-       "text": "We provide basic online access (e.g. website) to our customers."
-      },
-      {
-       "value": "1.00",
-       "text": "We provide online access to our customers bue services are limited and not seamlessly"
-      },
-      {
-       "value": "1.25",
-       "text": "We provide a wide range of services through online access to our customer but these are not seamlessly integrated."
-      },
-      {
-       "value": "1.50",
-       "text": "The customers are provided with seamless and integrated access to all services from a single system."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question13",
-     "title": "To what extent are the customer related processes digitized (e.g. customer relationship management, customer support)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Customer related information and processes are all manual."
-      },
-      {
-       "value": "0.75",
-       "text": "We have started to identify customer related processses that can be digitized"
-      },
-      {
-       "value": "1.00",
-       "text": "We have digitized some of our customer related processes"
-      },
-      {
-       "value": "1.25",
-       "text": "Customer related processes are mostly digitized and automated, requiring limited manual intervention"
-      },
-      {
-       "value": "1.50",
-       "text": "Customer related processes are all digitized and automated."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question14",
-     "title": "To what extent do you utilize data to understand needs of your customers and to manage their experience?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not use data to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "0.75",
-       "text": "We understand the importance of the data to address customer needs but have a limited know-how on the leverage data."
-      },
-      {
-       "value": "1.00",
-       "text": "We utilize few data points to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "1.25",
-       "text": "our customer experience design is informaed by qualititive and quantitative customer insights drawn from data."
-      },
-      {
-       "value": "1.50",
-       "text": "We manage customer experience by continuously monitoring several data points and balancing customer needs with the cost to deliver."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question15",
-     "title": "How does your organization collect customer feedback?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not collect customer feedback"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization collects customer feedback through word of mouth, or manually recording customer complaints"
-      },
-      {
-       "value": "1.00",
-       "text": "Our organization collects customer feedback by sending out surveys on a periodic basis e.g. monthly, semi-annually, annually."
-      },
-      {
-       "value": "1.25",
-       "text": "our organization collects customer feedback through certain digital channels to understand ongoing customer experience."
-      },
-      {
-       "value": "1.50",
-       "text": "feedback is captured across all channels of the customer journey to understand ongoing customer experience."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    }
-   ],
-   "title": "Strategy"
-  },
-  {
-   "name": "page4",
-   "elements": [
-    {
-     "type": "radiogroup",
-     "name": "question16",
-     "title": "How would you rate your digital marketing efforts?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Our organization doesn't do digital marketing but we'd like to learn"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization is starting to engage with customers through digital marketing"
-      },
-      {
-       "value": "1.00",
-       "text": "We have developed a digital marketing strategy and are beginning to implement specific digital marketing initiatives"
-      },
-      {
-       "value": "1.25",
-       "text": "Our organization puts significant effort into digital marketing across multiple channels to engage customers but we do not have clear metrics and mechanisms to report on the efficacy of these initiatives."
-      },
-      {
-       "value": "1.50",
-       "text": "Our organization focuses onenhancing customer experience through digital channels such as web, mobile and social media with a clear strategy, budget, goals and performance metrics for each channel."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question17",
-     "title": "Do you provide your customers with online access (e.g. website, eCommerce, portal, mobile app)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not provide our customers with online access"
-      },
-      {
-       "value": "0.75",
-       "text": "We provide basic online access (e.g. website) to our customers."
-      },
-      {
-       "value": "1.00",
-       "text": "We provide online access to our customers bue services are limited and not seamlessly"
-      },
-      {
-       "value": "1.25",
-       "text": "We provide a wide range of services through online access to our customer but these are not seamlessly integrated."
-      },
-      {
-       "value": "1.50",
-       "text": "The customers are provided with seamless and integrated access to all services from a single system."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question18",
-     "title": "To what extent are the customer related processes digitized (e.g. customer relationship management, customer support)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Customer related information and processes are all manual."
-      },
-      {
-       "value": "0.75",
-       "text": "We have started to identify customer related processses that can be digitized"
-      },
-      {
-       "value": "1.00",
-       "text": "We have digitized some of our customer related processes"
-      },
-      {
-       "value": "1.25",
-       "text": "Customer related processes are mostly digitized and automated, requiring limited manual intervention"
-      },
-      {
-       "value": "1.50",
-       "text": "Customer related processes are all digitized and automated."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question19",
-     "title": "To what extent do you utilize data to understand needs of your customers and to manage their experience?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not use data to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "0.75",
-       "text": "We understand the importance of the data to address customer needs but have a limited know-how on the leverage data."
-      },
-      {
-       "value": "1.00",
-       "text": "We utilize few data points to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "1.25",
-       "text": "our customer experience design is informaed by qualititive and quantitative customer insights drawn from data."
-      },
-      {
-       "value": "1.50",
-       "text": "We manage customer experience by continuously monitoring several data points and balancing customer needs with the cost to deliver."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question20",
-     "title": "How does your organization collect customer feedback?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not collect customer feedback"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization collects customer feedback through word of mouth, or manually recording customer complaints"
-      },
-      {
-       "value": "1.00",
-       "text": "Our organization collects customer feedback by sending out surveys on a periodic basis e.g. monthly, semi-annually, annually."
-      },
-      {
-       "value": "1.25",
-       "text": "our organization collects customer feedback through certain digital channels to understand ongoing customer experience."
-      },
-      {
-       "value": "1.50",
-       "text": "feedback is captured across all channels of the customer journey to understand ongoing customer experience."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    }
-   ],
-   "title": "Interactions & Data Security"
-  },
-  {
-   "name": "page5",
-   "elements": [
-    {
-     "type": "radiogroup",
-     "name": "question21",
-     "title": "How would you rate your digital marketing efforts?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Our organization doesn't do digital marketing but we'd like to learn"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization is starting to engage with customers through digital marketing"
-      },
-      {
-       "value": "1.00",
-       "text": "We have developed a digital marketing strategy and are beginning to implement specific digital marketing initiatives"
-      },
-      {
-       "value": "1.25",
-       "text": "Our organization puts significant effort into digital marketing across multiple channels to engage customers but we do not have clear metrics and mechanisms to report on the efficacy of these initiatives."
-      },
-      {
-       "value": "1.50",
-       "text": "Our organization focuses onenhancing customer experience through digital channels such as web, mobile and social media with a clear strategy, budget, goals and performance metrics for each channel."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question22",
-     "title": "Do you provide your customers with online access (e.g. website, eCommerce, portal, mobile app)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not provide our customers with online access"
-      },
-      {
-       "value": "0.75",
-       "text": "We provide basic online access (e.g. website) to our customers."
-      },
-      {
-       "value": "1.00",
-       "text": "We provide online access to our customers bue services are limited and not seamlessly"
-      },
-      {
-       "value": "1.25",
-       "text": "We provide a wide range of services through online access to our customer but these are not seamlessly integrated."
-      },
-      {
-       "value": "1.50",
-       "text": "The customers are provided with seamless and integrated access to all services from a single system."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question23",
-     "title": "To what extent are the customer related processes digitized (e.g. customer relationship management, customer support)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Customer related information and processes are all manual."
-      },
-      {
-       "value": "0.75",
-       "text": "We have started to identify customer related processses that can be digitized"
-      },
-      {
-       "value": "1.00",
-       "text": "We have digitized some of our customer related processes"
-      },
-      {
-       "value": "1.25",
-       "text": "Customer related processes are mostly digitized and automated, requiring limited manual intervention"
-      },
-      {
-       "value": "1.50",
-       "text": "Customer related processes are all digitized and automated."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question24",
-     "title": "To what extent do you utilize data to understand needs of your customers and to manage their experience?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not use data to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "0.75",
-       "text": "We understand the importance of the data to address customer needs but have a limited know-how on the leverage data."
-      },
-      {
-       "value": "1.00",
-       "text": "We utilize few data points to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "1.25",
-       "text": "our customer experience design is informaed by qualititive and quantitative customer insights drawn from data."
-      },
-      {
-       "value": "1.50",
-       "text": "We manage customer experience by continuously monitoring several data points and balancing customer needs with the cost to deliver."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question25",
-     "title": "How does your organization collect customer feedback?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not collect customer feedback"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization collects customer feedback through word of mouth, or manually recording customer complaints"
-      },
-      {
-       "value": "1.00",
-       "text": "Our organization collects customer feedback by sending out surveys on a periodic basis e.g. monthly, semi-annually, annually."
-      },
-      {
-       "value": "1.25",
-       "text": "our organization collects customer feedback through certain digital channels to understand ongoing customer experience."
-      },
-      {
-       "value": "1.50",
-       "text": "feedback is captured across all channels of the customer journey to understand ongoing customer experience."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    }
-   ],
-   "title": "Technology"
-  },
-  {
-   "name": "page6",
-   "elements": [
-    {
-     "type": "radiogroup",
-     "name": "question26",
-     "title": "How would you rate your digital marketing efforts?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Our organization doesn't do digital marketing but we'd like to learn"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization is starting to engage with customers through digital marketing"
-      },
-      {
-       "value": "1.00",
-       "text": "We have developed a digital marketing strategy and are beginning to implement specific digital marketing initiatives"
-      },
-      {
-       "value": "1.25",
-       "text": "Our organization puts significant effort into digital marketing across multiple channels to engage customers but we do not have clear metrics and mechanisms to report on the efficacy of these initiatives."
-      },
-      {
-       "value": "1.50",
-       "text": "Our organization focuses onenhancing customer experience through digital channels such as web, mobile and social media with a clear strategy, budget, goals and performance metrics for each channel."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question27",
-     "title": "Do you provide your customers with online access (e.g. website, eCommerce, portal, mobile app)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not provide our customers with online access"
-      },
-      {
-       "value": "0.75",
-       "text": "We provide basic online access (e.g. website) to our customers."
-      },
-      {
-       "value": "1.00",
-       "text": "We provide online access to our customers bue services are limited and not seamlessly"
-      },
-      {
-       "value": "1.25",
-       "text": "We provide a wide range of services through online access to our customer but these are not seamlessly integrated."
-      },
-      {
-       "value": "1.50",
-       "text": "The customers are provided with seamless and integrated access to all services from a single system."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question28",
-     "title": "To what extent are the customer related processes digitized (e.g. customer relationship management, customer support)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Customer related information and processes are all manual."
-      },
-      {
-       "value": "0.75",
-       "text": "We have started to identify customer related processses that can be digitized"
-      },
-      {
-       "value": "1.00",
-       "text": "We have digitized some of our customer related processes"
-      },
-      {
-       "value": "1.25",
-       "text": "Customer related processes are mostly digitized and automated, requiring limited manual intervention"
-      },
-      {
-       "value": "1.50",
-       "text": "Customer related processes are all digitized and automated."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question29",
-     "title": "To what extent do you utilize data to understand needs of your customers and to manage their experience?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not use data to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "0.75",
-       "text": "We understand the importance of the data to address customer needs but have a limited know-how on the leverage data."
-      },
-      {
-       "value": "1.00",
-       "text": "We utilize few data points to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "1.25",
-       "text": "our customer experience design is informaed by qualititive and quantitative customer insights drawn from data."
-      },
-      {
-       "value": "1.50",
-       "text": "We manage customer experience by continuously monitoring several data points and balancing customer needs with the cost to deliver."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question30",
-     "title": "How does your organization collect customer feedback?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not collect customer feedback"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization collects customer feedback through word of mouth, or manually recording customer complaints"
-      },
-      {
-       "value": "1.00",
-       "text": "Our organization collects customer feedback by sending out surveys on a periodic basis e.g. monthly, semi-annually, annually."
-      },
-      {
-       "value": "1.25",
-       "text": "our organization collects customer feedback through certain digital channels to understand ongoing customer experience."
-      },
-      {
-       "value": "1.50",
-       "text": "feedback is captured across all channels of the customer journey to understand ongoing customer experience."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    }
-   ],
-   "title": "Operations"
-  },
-  {
-   "name": "page7",
-   "elements": [
-    {
-     "type": "radiogroup",
-     "name": "question31",
-     "title": "How would you rate your digital marketing efforts?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Our organization doesn't do digital marketing but we'd like to learn"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization is starting to engage with customers through digital marketing"
-      },
-      {
-       "value": "1.00",
-       "text": "We have developed a digital marketing strategy and are beginning to implement specific digital marketing initiatives"
-      },
-      {
-       "value": "1.25",
-       "text": "Our organization puts significant effort into digital marketing across multiple channels to engage customers but we do not have clear metrics and mechanisms to report on the efficacy of these initiatives."
-      },
-      {
-       "value": "1.50",
-       "text": "Our organization focuses onenhancing customer experience through digital channels such as web, mobile and social media with a clear strategy, budget, goals and performance metrics for each channel."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question32",
-     "title": "Do you provide your customers with online access (e.g. website, eCommerce, portal, mobile app)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not provide our customers with online access"
-      },
-      {
-       "value": "0.75",
-       "text": "We provide basic online access (e.g. website) to our customers."
-      },
-      {
-       "value": "1.00",
-       "text": "We provide online access to our customers bue services are limited and not seamlessly"
-      },
-      {
-       "value": "1.25",
-       "text": "We provide a wide range of services through online access to our customer but these are not seamlessly integrated."
-      },
-      {
-       "value": "1.50",
-       "text": "The customers are provided with seamless and integrated access to all services from a single system."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question33",
-     "title": "To what extent are the customer related processes digitized (e.g. customer relationship management, customer support)?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "Customer related information and processes are all manual."
-      },
-      {
-       "value": "0.75",
-       "text": "We have started to identify customer related processses that can be digitized"
-      },
-      {
-       "value": "1.00",
-       "text": "We have digitized some of our customer related processes"
-      },
-      {
-       "value": "1.25",
-       "text": "Customer related processes are mostly digitized and automated, requiring limited manual intervention"
-      },
-      {
-       "value": "1.50",
-       "text": "Customer related processes are all digitized and automated."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question34",
-     "title": "To what extent do you utilize data to understand needs of your customers and to manage their experience?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not use data to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "0.75",
-       "text": "We understand the importance of the data to address customer needs but have a limited know-how on the leverage data."
-      },
-      {
-       "value": "1.00",
-       "text": "We utilize few data points to understand and address customer needs and manage customer experience."
-      },
-      {
-       "value": "1.25",
-       "text": "our customer experience design is informaed by qualititive and quantitative customer insights drawn from data."
-      },
-      {
-       "value": "1.50",
-       "text": "We manage customer experience by continuously monitoring several data points and balancing customer needs with the cost to deliver."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    },
-    {
-     "type": "radiogroup",
-     "name": "question35",
-     "title": "How does your organization collect customer feedback?",
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "0.50",
-       "text": "We do not collect customer feedback"
-      },
-      {
-       "value": "0.75",
-       "text": "Our organization collects customer feedback through word of mouth, or manually recording customer complaints"
-      },
-      {
-       "value": "1.00",
-       "text": "Our organization collects customer feedback by sending out surveys on a periodic basis e.g. monthly, semi-annually, annually."
-      },
-      {
-       "value": "1.25",
-       "text": "our organization collects customer feedback through certain digital channels to understand ongoing customer experience."
-      },
-      {
-       "value": "1.50",
-       "text": "feedback is captured across all channels of the customer journey to understand ongoing customer experience."
-      },
-      {
-       "value": "0",
-       "text": "The question is not applicable to our organization."
-      }
-     ]
-    }
-   ],
-   "title": "Organization"
-  }
- ],
- "showProgressBar": "aboveheader",
- "allowCompleteSurveyAutomatic": false,
- "questionsOnPageMode": "questionPerPage",
- "headerView": "advanced"
-}
+  "title": "Digital Needs Assessment",
+  "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABCIAAAFqCAYAAADP4vv1AAAsYmNhQlgAACxianVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQNjMnBhAAAALDxqdW1iAAAAR2p1bWRjMm1hABEAEIAAAKoAOJtxA3Vybjp1dWlkOjE3Y2NjMzQyLTU3MDUtNDlkYi05ZWJiLTY5YzhmMmQxZTQ0MAAAAAGmanVtYgAAAClqdW1kYzJhcwARABCAAACqADibcQNjMnBhLmFzc2VydGlvbnMAAAAAymp1bWIAAAAmanVtZGNib3IAEQAQgAAAqgA4m3EDYzJwYS5hY3Rpb25zAAAAAJxjYm9yoWdhY3Rpb25zgaNmYWN0aW9ua2MycGEuZWRpdGVkbXNvZnR3YXJlQWdlbnRtQWRvYmUgRmlyZWZseXFkaWdpdGFsU291cmNlVHlwZXhGaHR0cDovL2N2LmlwdGMub3JnL25ld3Njb2Rlcy9kaWdpdGFsc291cmNldHlwZS90cmFpbmVkQWxnb3JpdGhtaWNNZWRpYQAAAKtqdW1iAAAAKGp1bWRjYm9yABEAEIAAAKoAOJtxA2MycGEuaGFzaC5kYXRhAAAAAHtjYm9ypWpleGNsdXNpb25zgaJlc3RhcnQYIWZsZW5ndGgZLG5kbmFtZW5qdW1iZiBtYW5pZmVzdGNhbGdmc2hhMjU2ZGhhc2hYIIE37BNyRfip1mwNou/j+yw8gp+Vz+3AwJwZkatEwF3FY3BhZEgAAAAAAAAAAAAAAgdqdW1iAAAAJGp1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0AAAAB22Nib3KoaGRjOnRpdGxlb0dlbmVyYXRlZCBJbWFnZWlkYzpmb3JtYXRpaW1hZ2UvcG5namluc3RhbmNlSUR4LHhtcDppaWQ6NTdlZWY5N2MtNmVkMy00N2RjLWFjODgtMDM3Mzg0N2JkNDRlb2NsYWltX2dlbmVyYXRvcng2QWRvYmVfSWxsdXN0cmF0b3IvMjguMSBhZG9iZV9jMnBhLzAuNy42IGMycGEtcnMvMC4yNS4ydGNsYWltX2dlbmVyYXRvcl9pbmZvgb9kbmFtZXFBZG9iZSBJbGx1c3RyYXRvcmd2ZXJzaW9uZDI4LjH/aXNpZ25hdHVyZXgZc2VsZiNqdW1iZj1jMnBhLnNpZ25h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yIYAY1bYIB9MNL5v5ZgkGIgv2NdhngsX4GJS9927Y3BhZFkLvgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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",
+  "logoPosition": "right",
+  "pages": [
+   {
+    "name": "page1",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question1",
+      "title": "How would you rate your digital marketing efforts?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Our organization doesn't do digital marketing but we'd like to learn"
+       },
+       {
+        "value": "0.75",
+        "text": "Our organization is starting to engage with customers through digital marketing"
+       },
+       {
+        "value": "1.00",
+        "text": "We have developed a digital marketing strategy and are beginning to implement specific digital marketing initiatives"
+       },
+       {
+        "value": "1.25",
+        "text": "Our organization puts significant effort into digital marketing across multiple channels to engage customers but we do not have clear metrics and mechanisms to report on the efficacy of these initiatives."
+       },
+       {
+        "value": "1.50",
+        "text": "Our organization focuses onenhancing customer experience through digital channels such as web, mobile and social media with a clear strategy, budget, goals and performance metrics for each channel."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question2",
+      "title": "Do you provide your customers with online access (e.g. website, eCommerce, portal, mobile app)?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not provide our customers with online access"
+       },
+       {
+        "value": "0.75",
+        "text": "We provide basic online access (e.g. website) to our customers."
+       },
+       {
+        "value": "1.00",
+        "text": "We provide online access to our customers bue services are limited and not seamlessly"
+       },
+       {
+        "value": "1.25",
+        "text": "We provide a wide range of services through online access to our customer but these are not seamlessly integrated."
+       },
+       {
+        "value": "1.50",
+        "text": "The customers are provided with seamless and integrated access to all services from a single system."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question3",
+      "title": "To what extent are the customer related processes digitized (e.g. customer relationship management, customer support)?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Customer related information and processes are all manual."
+       },
+       {
+        "value": "0.75",
+        "text": "We have started to identify customer related processses that can be digitized"
+       },
+       {
+        "value": "1.00",
+        "text": "We have digitized some of our customer related processes"
+       },
+       {
+        "value": "1.25",
+        "text": "Customer related processes are mostly digitized and automated, requiring limited manual intervention"
+       },
+       {
+        "value": "1.50",
+        "text": "Customer related processes are all digitized and automated."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question5",
+      "title": "To what extent do you utilize data to understand needs of your customers and to manage their experience?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not use data to understand and address customer needs and manage customer experience."
+       },
+       {
+        "value": "0.75",
+        "text": "We understand the importance of the data to address customer needs but have a limited know-how on the leverage data."
+       },
+       {
+        "value": "1.00",
+        "text": "We utilize few data points to understand and address customer needs and manage customer experience."
+       },
+       {
+        "value": "1.25",
+        "text": "our customer experience design is informaed by qualititive and quantitative customer insights drawn from data."
+       },
+       {
+        "value": "1.50",
+        "text": "We manage customer experience by continuously monitoring several data points and balancing customer needs with the cost to deliver."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question6",
+      "title": "How does your organization collect customer feedback?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not collect customer feedback"
+       },
+       {
+        "value": "0.75",
+        "text": "Our organization collects customer feedback through word of mouth, or manually recording customer complaints"
+       },
+       {
+        "value": "1.00",
+        "text": "Our organization collects customer feedback by sending out surveys on a periodic basis e.g. monthly, semi-annually, annually."
+       },
+       {
+        "value": "1.25",
+        "text": "our organization collects customer feedback through certain digital channels to understand ongoing customer experience."
+       },
+       {
+        "value": "1.50",
+        "text": "feedback is captured across all channels of the customer journey to understand ongoing customer experience."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     }
+    ],
+    "title": "Customer Experience"
+   },
+   {
+    "name": "page2",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question4",
+      "title": "To what extent does your organization utilize a multi-channel marketing approach?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Our marketing strategy does not use a multi-channel approach."
+       },
+       {
+        "value": "0.75",
+        "text": "Our marketing strategy considers a multi-channel approach but customer experience is not consistent across different channels backslash platforms"
+       },
+       {
+        "value": "1.00",
+        "text": "Our marketing strategy uses a multi-channel approach to reach customers through different platforms (web, mobile, In person, phone, Social Etc).com providing a consistent experience across these platforms."
+       },
+       {
+        "value": "1.25",
+        "text": "Our marketing strategy is optimized to reach cell and interact with customers through a multi-channel app( web Ecommerce, customer portal), mobile ( application, responsive website), in person, phone and social. customer experience is consistent across all platforms."
+       },
+       {
+        "value": "1.50",
+        "text": "Our multi-channel marketing strategy ensures that we present personalized products and services to our customers irrespective of the platforms through which they engage most often."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question7",
+      "title": "Do you use any customer analytics platform to Target customers?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not utilize a customer analytics platform."
+       },
+       {
+        "value": "0.75",
+        "text": "We leverage basic information to Target customers using a limited set of related data ( E.G customer offers that are relevant based on priority purchases history)."
+       },
+       {
+        "value": "1.00",
+        "text": "We Leverage Analytics and have solid knowledge of customers across a range of attributable elements ( e. g. channel, category, Department) enabling us to segment and Target customers appropriately."
+       },
+       {
+        "value": "1.25",
+        "text": "We leverage a strong customer analytics platform ( Data storage, analytics, customer relationship tools) to segment, attract, acquire, expand and retain across the entire customer life cycle."
+       },
+       {
+        "value": "1.50",
+        "text": "We have a robust customer analytics platform that allows us to gain a deep understanding of our Target customer segments( allowing for micro segmentation), our performance within each segment and an approach to win and defend market share."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question8",
+      "title": "Organization invest in digital capabilities (e.g. virtual assistant for customer service, online access to products and services, mobile apps) to address customer needs?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We haven't yet invested in any digital capabilities and tools to address customer needs."
+       },
+       {
+        "value": "0.75",
+        "text": "We invest in digital capabilities on an ad hoc basis to address specific customer needs."
+       },
+       {
+        "value": "1.00",
+        "text": "we plan digital Investments for a set of basic customer facing activities(e.g. investments in chat bots) as part of our annual planning cycles."
+       },
+       {
+        "value": "1.25",
+        "text": "we plan digital Investments annually to enhance overall customer experience (e.g. Portal design, Dynamic virtual assistants, advanced search functionality)."
+       },
+       {
+        "value": "1.50",
+        "text": "We continuously explore and invest in new digital capabilities to provide the Best in Class customer experience. Digital Investments for customers' needs are a key strategic pillar of our organization."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question9",
+      "title": "How much of your brand and marketing Investments are allocated towards digital assets?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We haven't yet allocated any marketing Investments towards digital assets."
+       },
+       {
+        "value": "0.75",
+        "text": "There is limited focus on digital assets as part of our brand and marketing investments."
+       },
+       {
+        "value": "1.00",
+        "text": "Our brand and marketing Investments are appropriately allocated across physical digital assets."
+       },
+       {
+        "value": "1.25",
+        "text": "The focus of our brand and marketing investment is Shifting more towards digital assets."
+       },
+       {
+        "value": "1.50",
+        "text": "Digital assets are a major focus of our brand and marketing Investments."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question10",
+      "title": "How would you rate your organizations ability to connect digitally with potential customers and use digital tools as a part of your customer acquisition process?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We are not aware of digital tools and platforms that can assist in identification and acquisition of new customers."
+       },
+       {
+        "value": "0.75",
+        "text": "We are aware of digital tools and platforms that can assist in identification and acquisition of new customers but have limited knowledge of how to use these tools."
+       },
+       {
+        "value": "1.00",
+        "text": "We use some basic digital tools to connect with potential customers as part of our customer acquisition process but are not sure if these tools are the right ones for us."
+       },
+       {
+        "value": "1.25",
+        "text": "We use digital tools platforms and forms as a mechanism to connect with and acquire new customers but the use of these tools ( and other platforms to help us) can be optimized."
+       },
+       {
+        "value": "1.50",
+        "text": "we use Advanced Digital search engagement and connection mechanisms (e.g. virtual trade shows) as part of the customer acquisition process and have found success in using these digital Avenues as part of our customer acquisition process."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     }
+    ],
+    "title": "Products & Services "
+   },
+   {
+    "name": "page3",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question11",
+      "title": "Does your organization understand the opportunities offered by digital for the overall business?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We want to experience greater success and efficiency but just need help getting started."
+       },
+       {
+        "value": "0.75",
+        "text": "We are starting to realize the impact of digital on our business but do not know specifically how it will impact our business."
+       },
+       {
+        "value": "1.00",
+        "text": "We recognize the impact of digital on our business and have an understanding of the specific areas that it will impact in the short and medium term."
+       },
+       {
+        "value": "1.25",
+        "text": "We clearly understand how digital is impacting the overall industry and our business and periodically investing in the Technologies to keep up with the competition."
+       },
+       {
+        "value": "1.50",
+        "text": "We have a Clear Vision for how digital will transform our industry and business and are investing to drive disruption, disruptive technology and Innovation are essential parts of our agenda."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question12",
+      "title": "Is your digital strategy aligned to your business strategy?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not have a digital plan."
+       },
+       {
+        "value": "0.75",
+        "text": "We do not have a defined Cadence to review our digital plan. We update the plan on an ad hoc/ as needed basis."
+       },
+       {
+        "value": "1.00",
+        "text": "our digital plan is updated once every few years (e.g. 3-year digital plan)."
+       },
+       {
+        "value": "1.25",
+        "text": "The digital plan is updated every year and is Loosely tracked against the overall strategic business plan."
+       },
+       {
+        "value": "1.50",
+        "text": "Our digital plan is updated every year and is tracked on a regular basis alongside the Strategic business plan. the question is not applicable to our organization."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question13",
+      "title": "To what extent do you plan for investments in digital initiatives?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not plan for investments in digital initiatives."
+       },
+       {
+        "value": "0.75",
+        "text": "Our plan for investments in digital initiatives is prepared on an ad hoc basis."
+       },
+       {
+        "value": "1.00",
+        "text": "Digital Investments are decided and planned by a Department for specific initiatives focusing on only their current needs."
+       },
+       {
+        "value": "1.25",
+        "text": "Digital Investments are decided and planned by departments for transformational programs and consider current and Future needs."
+       },
+       {
+        "value": "1.50",
+        "text": "Digital Investments are planned and prioritized at an organizational level in addition to being a driver to transformational programs."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question14",
+      "title": "How integral is data and analytics to support your organization/ business level decision making?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not collect or analyze data for decision making and data is not an integral part of our strategy."
+       },
+       {
+        "value": "0.75",
+        "text": "We collect data from different sources but do not know how to use/ mine insights from data for business level decision making."
+       },
+       {
+        "value": "1.00",
+        "text": "We use basic data and Analytics methods to drive business insights on an ad hoc basis."
+       },
+       {
+        "value": "1.25",
+        "text": "specific departments use insights mine from data to support the decision-making process."
+       },
+       {
+        "value": "1.50",
+        "text": "We use Advanced analytic techniques ( throughout the organization) to match specific business needs."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question15",
+      "title": "To what extent do you utilize data analytics for reporting/dashboards?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not use digital tools to monitor business operations."
+       },
+       {
+        "value": "0.75",
+        "text": "Leadership is provided with basic reports ( mostly manual and Excel based) on an ad hoc/ as needed basis."
+       },
+       {
+        "value": "1.00",
+        "text": "Leadership, mid-management and functional teams are provided basic reports, kpis and dashboards on a regular basis (Mix of tools - excel, other applications)."
+       },
+       {
+        "value": "1.25",
+        "text": "Dashboards ( non-real time), advanced reports and kpis are available to employees through specific visualization tools to support their decision making process."
+       },
+       {
+        "value": "1.50",
+        "text": "Real-time dashboards are available to employees to support decision making through strong data analytic tools."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question36",
+      "title": "Do you have a strategy to handle data from a security, privacy, quality and consistency perspective?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not have a formal and defined data governance strategy and policy."
+       },
+       {
+        "value": "0.75",
+        "text": "Our data governance strategy and policy is defined but has not been fully implemented across the organization."
+       },
+       {
+        "value": "1.00",
+        "text": "Our data governance strategy and policy is defined and implemented by individual departments but not updated regularly."
+       },
+       {
+        "value": "1.25",
+        "text": "Our standard data governance strategy and policy is defined and fully implemented across the organization and revised periodically."
+       },
+       {
+        "value": "1.50",
+        "text": "Governance policies and procedures are fully implemented and clearly understood throughout The organization ( with respect to security, privacy, data quality Etc.) and are updated frequently."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question37",
+      "title": "How do you rate your organization's ability to store, track and analyze customer data?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not have dedicated systems or tools to handle customer data."
+       },
+       {
+        "value": "0.75",
+        "text": "We collect and store basic customer data to perform a limited set of analysis."
+       },
+       {
+        "value": "1.00",
+        "text": "Our organization collects customer data from a variety of sources for ad hoc analysis but integration between the systems is limited."
+       },
+       {
+        "value": "1.25",
+        "text": "are organization has dedicated systems (e.g. CRM system) in place to track and store customer data but manual manipulation is required to analyze data."
+       },
+       {
+        "value": "1.50",
+        "text": "Our systems are fully automated, integrated and capable of collecting, preparing and analyzing customer data from a variety of sources ( in various data formats) resulting in in-depth customer insights."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question38",
+      "title": "As part of your strategic planning, does your organization consider investments in digital Technologies to improve internal functions ( such as inventory planning, pricing, financing HR)?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Digital Investments to improve internal functions are rarely considered in our annual planning and budgeting cycle but we'd like to learn more."
+       },
+       {
+        "value": "0.75",
+        "text": "We review the need for digital Technologies for internal functions on a short-term basis and allocate capital accordingly."
+       },
+       {
+        "value": "1.00",
+        "text": "We plan and budget for investments in digital Technologies for internal functions every few years."
+       },
+       {
+        "value": "1.25",
+        "text": "We plan and budget for investments in digital Technologies for internal functions as part of our annual budgeting cycles."
+       },
+       {
+        "value": "1.50",
+        "text": "Digital Investments to enhance efficiency of internal functions are considered as a strategic imperative and form a part of our long-term roadmap and planning and budgeting process."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     }
+    ],
+    "title": "Strategy"
+   },
+   {
+    "name": "page4",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question16",
+      "title": "How does your organization manage digital content?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not have an organized structure to manage digital content for online platforms."
+       },
+       {
+        "value": "0.75",
+        "text": "Our organization periodically monitors content quality and relevance on online platforms.The approach is ad hoc and reactive in nature."
+       },
+       {
+        "value": "1.00",
+        "text": "We have a formalized structure ( of people and process) to regularly create new digital content. We monitor the quality and relevance of our content on online platforms and update content based on feedback.."
+       },
+       {
+        "value": "1.25",
+        "text": "We have an organized set up to regularly Monitor and update digital content to keep key trends in view. we use analytical tools and techniques to determine relevance of our content on digital platforms however, our content is not very customized"
+       },
+       {
+        "value": "1.50",
+        "text": "We are proactive in our management of digital content with a dedicated team of experts responsible for creating and managing digital content with a focus on personalized customer experience branding and promotional needs driven by data and Analytics."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question17",
+      "title": "How does your company use social media?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not use social media."
+       },
+       {
+        "value": "0.75",
+        "text": "We use social media but not for actively engaging with our existing and potentially new customers."
+       },
+       {
+        "value": "1.00",
+        "text": "We are active on social media, but our organization does not have a formal set of policies guidelines in place."
+       },
+       {
+        "value": "1.25",
+        "text": "We are active on social media and have a formal set of policies/ guidelines in place but do not have defined content plan and customer Outreach strategy."
+       },
+       {
+        "value": "1.50",
+        "text": "there is a social media content plan with goals to encourage brand recognition, relationship and customer loyalty. We have an up-to-date set of social media policies/ guidelines and proactively managed our online reputation."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question18",
+      "title": "How to find your policy around cyber and data security?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "I don't know the answer."
+       },
+       {
+        "value": "0.75",
+        "text": "We rely on our partners to secure our data ( cloud service providers)."
+       },
+       {
+        "value": "1.00",
+        "text": "there is a clear understanding of our cybersecurity within our organization with high level directives to meet strategic objectives."
+       },
+       {
+        "value": "1.25",
+        "text": "Data security is a strategic imperative across the organization that is evaluated and adjusted annually. We have processes, agreements and controls in place to maintain the confidentiality and integrity of sensitive data transmitted outside of organizational boundaries and 2/3 parties."
+       },
+       {
+        "value": "1.50",
+        "text": "We involve our security team for planning any digital initiative. A cyber security plan is included in the project data architecture and design including the documentation of Cyber attack prevention, detection, response and Recovery measures."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question19",
+      "title": "How do you protect the privacy of your data?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "I don't know the answer."
+       },
+       {
+        "value": "0.75",
+        "text": "Our organization understands the criticality of data privacy."
+       },
+       {
+        "value": "1.00",
+        "text": "There is a high level understanding within the organization and expectation of the employees to protect company and customer data."
+       },
+       {
+        "value": "1.25",
+        "text": "Employees are well informed and educated about data privacy and have contractual obligations in place to ensure data is protected."
+       },
+       {
+        "value": "1.50",
+        "text": "Data privacy protection is a strategic concern across the organization and is managed by a security officer."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     }
+    ],
+    "title": "Interactions & Data Security"
+   },
+   {
+    "name": "page5",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question21",
+      "title": "How would you rate the quality of your organizations' service management?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not have dedicated service management."
+       },
+       {
+        "value": "0.75",
+        "text": "We have self-trained internal support who can handle levels of system failures and incidents."
+       },
+       {
+        "value": "1.00",
+        "text": "In the event of a system failure, incidents are resolved as per severity and impact. We have some down time due to these incidents and redundancy is not fully built into all of our systems."
+       },
+       {
+        "value": "1.25",
+        "text": "We have minimal disruption and downtime due to system failures as we have high levels of redundancy and very strict SLAs for resolution of faults."
+       },
+       {
+        "value": "1.50",
+        "text": "Our IT systems, processes and infrastructure are robust and resilient with services available 365 24/7 with almost no downtime."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question22",
+      "title": "To what extent does your organization utilize cloud services?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not use cloud services."
+       },
+       {
+        "value": "0.75",
+        "text": "We have a plan to use cloud services, but are unclear about providers, costs which Cloud models work for us."
+       },
+       {
+        "value": "1.00",
+        "text": "The use of cloud services has been considered and a mapping of services, application and data hosting on cloud has been completed. Some of our applications and services reside in the public and hybrid Cloud environments."
+       },
+       {
+        "value": "1.25",
+        "text": "Usage of cloud services is prevalent across the organizations for a variety of applications and services, however there is no defined Cloud strategy and roadmap."
+       },
+       {
+        "value": "1.50",
+        "text": "There is a clearly defined and updated Cloud strategy, roadmap and implementation plan that outlines Cloud usage across the business for different services and applications."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question23",
+      "title": "How would you rate your capacity for technology experimentation and advancement?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not have all the skills or capacity to experiment with the new technologies."
+       },
+       {
+        "value": "0.75",
+        "text": "We have very limited knowledge, skills or capacity to experiment with new technologies."
+       },
+       {
+        "value": "1.00",
+        "text": "We have the technology skill set/ capability and are now exploring Automation and advancement."
+       },
+       {
+        "value": "1.25",
+        "text": "We believe in ideating and developing innovative solutions to problems that are underpinned by technology. For example we have started automating some repetitive and manual tasks with robotic process automation(RPA) and workflow automation."
+       },
+       {
+        "value": "1.50",
+        "text": "We continually work and experiment with Advanced Technologies like Internet of Things(IoT), artificial intelligence (AI) machine learning (ML) robotics to transform our business."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question24",
+      "title": "How would you rate your capacity of managing risk resulting from a digital initiative?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not manage risk associated with the impact of digitization on our business. We can't afford to take risks and our business can't sustain it."
+       },
+       {
+        "value": "0.75",
+        "text": "We manage risk associated with digital initiatives on an ad hoc/ as needed basis."
+       },
+       {
+        "value": "1.00",
+        "text": "We have a risk management framework that incorporates risk associated with digital digitization and monitor controls for these risks."
+       },
+       {
+        "value": "1.25",
+        "text": "We proactively manage risk associated with digital but do not have a dedicated risk management team."
+       },
+       {
+        "value": "1.50",
+        "text": "We have a dedicated risk management task force/ specialist with oversight in all digital activities, assets and initiatives across the business."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question25",
+      "title": "Technology architecture enables you to meet the current and future needs of users?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Our technology architecture does not meet our current needs."
+       },
+       {
+        "value": "0.75",
+        "text": "Our technology architecture is siloed and is designed to meet only the current needs of users within limited ability to scale in the short term."
+       },
+       {
+        "value": "1.00",
+        "text": "Our technology architecture has a basic level of integration and is designed to scale to meet short and medium-term needs."
+       },
+       {
+        "value": "1.25",
+        "text": "Our technology architecture is well designed and planned with high levels of integration and scalability."
+       },
+       {
+        "value": "1.50",
+        "text": "We have a fully dynamic, completely integrated and scalable technology architecture that enables us to meet the current and future needs of users."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     }
+    ],
+    "title": "Technology"
+   },
+   {
+    "name": "page6",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question26",
+      "title": "To what extent are your internal operations (e.g. IT, accounting and finance, human resources) digitized and interconnected?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Our back office business operations are manual and are not connected."
+       },
+       {
+        "value": "0.75",
+        "text": "Some of our back office business operations are digitized but are not interconnected."
+       },
+       {
+        "value": "1.00",
+        "text": "Some of our back office functions and systems are digitized and interconnected."
+       },
+       {
+        "value": "1.25",
+        "text": "All of our back office functions and systems are digitized but not all Arc interconnected."
+       },
+       {
+        "value": "1.50",
+        "text": "All of our back office systems are digitized and seamlessly integrated."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question27",
+      "title": "To what extent are your external operations (e.g. supply chain, procurement, customer delivery) digitized and interconnected?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Our middle Office business operations are manual and are not connected."
+       },
+       {
+        "value": "0.75",
+        "text": "Some of our middle Office business operations are digitized but are not connected."
+       },
+       {
+        "value": "1.00",
+        "text": "Some of our middle office functions and systems are digitized and interconnected."
+       },
+       {
+        "value": "1.25",
+        "text": "All of our middle office functions and systems are digitized but not all are interconnected."
+       },
+       {
+        "value": "1.50",
+        "text": "All of our middle office systems are digitized and interconnected."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question28",
+      "title": "To what extent are your customer-facing operations (e.g. sales, marketing, customer service) digitized and interconnected?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Our front office business operations are manual and are not connected. some of our front office business operations are digitized but are not connected"
+       },
+       {
+        "value": "0.75",
+        "text": "Some of our front office systems are digitized and not interconnected."
+       },
+       {
+        "value": "1.00",
+        "text": "Some of our front office systems are digitized and interconnected"
+       },
+       {
+        "value": "1.25",
+        "text": "All of our front office functions and systems are digitized but not all are interconnected."
+       },
+       {
+        "value": "1.50",
+        "text": "All of our front office systems are digitized and interconnected."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question29",
+      "title": "Does your organization (e.g. inventory management, procurement) Supply Chain management?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We track monitors manually."
+       },
+       {
+        "value": "0.75",
+        "text": "We use basic tools (e.g. Excel spreadsheets) to track and monitor our supply chain."
+       },
+       {
+        "value": "1.00",
+        "text": "We use specific supply chain tools to monitor the supply chain for a limited set of functions."
+       },
+       {
+        "value": "1.25",
+        "text": "We use digital tools to monitor our supply chain for all functions, but end-to-end integration and visibility are limited."
+       },
+       {
+        "value": "1.50",
+        "text": "We have enabling and integrated digital tools to assist us in understanding product flows and Roots across the supply chain(e.g. track and Trace movements, manage Freight forwarders, export/ import and associated taxes)."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     }
+    ],
+    "title": "Operations"
+   },
+   {
+    "name": "page7",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question31",
+      "title": "Is there a clear structure in the organization for developing and delivering digital initiatives?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We don't believe we have the capacity for developing and delivering digital initiatives."
+       },
+       {
+        "value": "0.75",
+        "text": "our current organizational structure personnel, rules definition, hierarchy) limits us from successfully adopting and delivering digital initiatives."
+       },
+       {
+        "value": "1.00",
+        "text": "In our current organization, business managers are primarily accountable for developing and delivering digital initiatives."
+       },
+       {
+        "value": "1.25",
+        "text": "Each department is responsible and accountable for planning and delivery of their digital strategy."
+       },
+       {
+        "value": "1.50",
+        "text": "There is a centralized cross-functional structure that is responsible for digital capacity planning/ Development/ delivery across the business."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question32",
+      "title": "how would you rate the skills of personnel available for data analytics?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not have any skilled Personnel available to perform data analytics."
+       },
+       {
+        "value": "0.75",
+        "text": "We have somewhat skilled analytics resources, but they are spread across organizations with no single line of responsibility."
+       },
+       {
+        "value": "1.00",
+        "text": "We have skilled data analytic personnel, but they are spread across the organization with no single line of responsibility."
+       },
+       {
+        "value": "1.25",
+        "text": "Data analytics Personnel are multi disciplined, with structure in place to effectively support analysis requirements across the whole business."
+       },
+       {
+        "value": "1.50",
+        "text": "We have a highly skilled data analytics team to support the business and we are consistently on the lookout for talent in the field of Advanced Data science."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question33",
+      "title": "How clear is the accountability to support digital initiatives?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Digital initiatives are ad hoc and no policies exist."
+       },
+       {
+        "value": "0.75",
+        "text": "We have progressed but policies are ad hoc around the new digital avenues."
+       },
+       {
+        "value": "1.00",
+        "text": "Specific policies exist to address new digital usage phenomena (E.G. the use of social media, byod- bring your own device)."
+       },
+       {
+        "value": "1.25",
+        "text": "Our policy and guidelines to address digital initiatives are frequently updated. however, they may not be comprehensive and forward-looking."
+       },
+       {
+        "value": "1.50",
+        "text": "There are clear forward-looking policies, guidelines and accountability for digital initiatives in our organization supported by a border or a committee."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question34",
+      "title": "How would you rate the digital leadership in your organization?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We want to remain competitive, but to be honest we find digital to be a bit daunting."
+       },
+       {
+        "value": "0.75",
+        "text": "Leadership is open to digital opportunities but they do not possess the necessary technical knowledge/ skills or the understanding of how these Technologies could positively impact the organization."
+       },
+       {
+        "value": "1.00",
+        "text": "Our leadership understands the importance of digital and supports specific digital initiatives driven by individual departments."
+       },
+       {
+        "value": "1.25",
+        "text": "Digital initiatives are handled by the IT department, which is responsible for planning and executing digital initiatives in the organization."
+       },
+       {
+        "value": "1.50",
+        "text": "The digital lead/ Chief digital officer reports to the CEO and to employees to deploy to the different Departments of the organization."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question35",
+      "title": "How would you rate your change management capability to support digital initiative?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "There is no designated person or mechanism with the necessary skills to see what has to change."
+       },
+       {
+        "value": "0.75",
+        "text": "There is no formal structure for change management. Change resulting from implementation of digital initiatives and programs is held reactively, driven primarily by incidents."
+       },
+       {
+        "value": "1.00",
+        "text": "Change management for digital initiatives is handled by each department ( no centralized capability)."
+       },
+       {
+        "value": "1.25",
+        "text": "We have an internal Communications plan to build a common understanding, commitment and consensus around implementing digital initiatives, supported by leaders at all levels of the organization."
+       },
+       {
+        "value": "1.50",
+        "text": "There is a formal centralized change management capability to support digital initiative, track progress, evaluate outcomes and adjust accordingly."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question20",
+      "title": "How would you rate employee digital engagement?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Employees are not motivated or do not have sufficient knowledge to adopt new technologies ."
+       },
+       {
+        "value": "0.75",
+        "text": "A subset of employees are technologically inclined and self-learn new technologies. however there is no mechanism in the organization to incentivize and train employees formally On Tools Technologies and trends."
+       },
+       {
+        "value": "1.00",
+        "text": "Engagement is at management level only department leaders are incentivized to increase the adoption and usage of Technologies and learn them."
+       },
+       {
+        "value": "1.25",
+        "text": "Employees at certain levels are encouraged/ supported to learn and get trained on new technologies."
+       },
+       {
+        "value": "1.50",
+        "text": "Employees at all levels are encouraged to learn and get trained on new technologies. The recruitment process considers the digital skills of candidates."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question30",
+      "title": "How would you rate your Capacity to offer employee Mobility?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Our employees need to be on-premises to access systems and tools because our type of business can't operate remotely."
+       },
+       {
+        "value": "0.75",
+        "text": "Our employees have limited access tools and applications to effectively work remotely."
+       },
+       {
+        "value": "1.00",
+        "text": "Our company internet offers some employees remote access to select applications."
+       },
+       {
+        "value": "1.25",
+        "text": "Our company offers remote access to all core applications to all relevant employees."
+       },
+       {
+        "value": "1.50",
+        "text": "All employees are fully equipped and have the necessary access to applications to perform work remotely."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "question39",
+      "title": "How would you rate cross-functional collaboration in your organization?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "Our business is small so we do not need tools to collaborate or communicate."
+       },
+       {
+        "value": "0.75",
+        "text": "Our teams have begun using technology to collaborate more effectively but we have limited knowledge on which tools to use and how to use them effectively."
+       },
+       {
+        "value": "1.00",
+        "text": "Our organization encourages cross-functional collaboration but adoption of advanced collaboration is limited."
+       },
+       {
+        "value": "1.25",
+        "text": "The organization has a project-based culture where teams contribute and collaborate frequently using traditional tools such as email and common repository for documents."
+       },
+       {
+        "value": "1.50",
+        "text": "Our organization Fosters cross-functional collaboration through culture structure and tools ( such as sharepoint, teams/ Slack, Skype, etc.)."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     }
+    ],
+    "title": "Organization"
+   },
+   {
+    "name": "page8",
+    "elements": [
+     {
+      "type": "radiogroup",
+      "name": "question40",
+      "title": "To what extent is your organization aligned to work collaboratively with Partners as part of your digital transformation?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "0.50",
+        "text": "We do not engage with third parties, form Partnerships or alliances as part of our digital transformation.."
+       },
+       {
+        "value": "0.75",
+        "text": "We are open to working with third parties but do not have a defined strategy to form and develop Partnerships and alliances."
+       },
+       {
+        "value": "1.00",
+        "text": "We see working with Partners as critical to our digital transformation Journey but have limited Avenues to identify the right partners for our initiatives."
+       },
+       {
+        "value": "1.25",
+        "text": "We engage with specific Partners on an as needed basis as part of our digital transformation and are consistently exploring further Avenues to collaborate."
+       },
+       {
+        "value": "1.50",
+        "text": "We have a well-defined partnership strategy and work collaboratively with a select set of Partners to help execute our digital transformation goals."
+       },
+       {
+        "value": "0",
+        "text": "The question is not applicable to our organization."
+       }
+      ]
+     }
+    ],
+    "title": "Partners & Alliances"
+   }
+  ],
+  "showProgressBar": "aboveheader",
+  "allowCompleteSurveyAutomatic": false,
+  "questionsOnPageMode": "questionPerPage",
+  "headerView": "advanced"
+ }
