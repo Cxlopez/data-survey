@@ -94,6 +94,7 @@ const BarChart = ({ averages }) => {
     page5: "Technology",
     page6: "Operations",
     page7: "Organization",
+    page8: "Partners & Alliances"
   };
 
   const data = {
