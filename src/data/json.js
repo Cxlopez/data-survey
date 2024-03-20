@@ -1333,6 +1333,7 @@ export const json = {
    }
   ],
   "showProgressBar": "aboveheader",
+  "goNextPageAutomatic": true,
   "allowCompleteSurveyAutomatic": false,
   "questionsOnPageMode": "questionPerPage",
   "headerView": "advanced"
