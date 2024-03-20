@@ -1,21 +1,16 @@
-/* surveyComponent.css */
-#charts-container {
-  display: flex;
-  flex-direction: column; /* Display children vertically */
-  align-items: center; /* Align items horizontally in the center */
-  overflow-x: auto;
-  margin-top: 20px; /* Add margin to separate from the above content */
+.charts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-auto-rows: auto; /* Automatically adjust row height */
+  gap: 20px; /* Gap between grid items */
+  width: 100%; /* Take up 100% of the page width */
 }
 
-.bar-chart-container {
-  width: 90vw; /* Bar chart takes up 90% of the page width */
+.bar-chart-container, .doughnut-chart-container {
+  width: 100%; /* Each chart container takes up 100% width */
 }
 
 .doughnut-chart-container {
-  width: 30vw; /* Doughnut chart takes up 100% of the container */
-}
-
-.chart-container {
-  margin-bottom: 20px; /* Add some spacing between charts */
+  max-width: 500px; /* Set a maximum width for the doughnut charts */
 }
 
