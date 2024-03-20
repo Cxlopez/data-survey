@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #112848;
+  height: auto;
+  width: 100%;
+  color: white;
+  overflow: none;
+  padding-bottom: 20px;
+
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.geo-logo {
+  flex-direction: row;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;;
+
+}
+
+.social-icons {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+
+  
+  #icon {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 20px;
+  }
+  
+}
+
+.social-icons svg {
+  fill: white;
+}
+
+.social-icons svg:hover {
+  fill: #f23005;
+}
+.line-divider {
+width: 90%;
+margin: 0 auto;
+height: 1.5px;
+background-color: white;
+margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'PT Sans', "Arial";
+}
+
+.copyright {
+  text-align: center;
+  color:white;
+  font-family: 'PT Sans', "Arial";
+}
