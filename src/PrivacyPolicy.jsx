@@ -7,9 +7,9 @@ function PrivacyPolicy({ onClose }) {
       <div className="modal-content">
         <div className="privacy-header">
           <h2>Privacy Policy</h2>
-          <button onClick={onClose}>Back to Assessment</button>
+          <button className="close-btn" onClick={onClose}>Back to Assessment</button>
         </div>
-        <p>
+        <p className="privacy-content">
           This Privacy Policy describes how we collect, use, and disclose
           information collected from users ("you" or "your") of the Digital
           Needs Assessment Survey (the "Survey").
