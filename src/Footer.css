@@ -1,14 +1,17 @@
-.container {
+
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #112848;
-  height: auto;
   width: 100%;
   color: white;
   overflow: none;
   padding-bottom: 20px;
-
+  position: static;
+  left: 0;
+  bottom: 0;
+  text-align: center;
 }
 
 .logo-container {

@@ -1,3 +1,8 @@
 canvas {
   height: 400px; /* Adjust the height as needed */
 }
+
+.charts-container {
+  min-height: calc(100vh - 400px);
+  margin: 25px;
+}
