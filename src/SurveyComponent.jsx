@@ -6,8 +6,6 @@ import { themeJson } from "./theme";
 import { json } from "./data/json";
 import { Bar, Doughnut } from "react-chartjs-2";
 import { Chart } from 'chart.js/auto'; // Import Chart.js
-import IndustryAverageBarChart from "./IndustryAverageBarChart";
-import IndustryAverageDoughnutChart from "./IndustryAverageDoughnutChart";
 import "./surveyComponent.css";
 
 function SurveyComponent() {
@@ -15,6 +13,18 @@ function SurveyComponent() {
   const [averages, setAverages] = useState([]);
   const [overallAverage, setOverallAverage] = useState(0);
   const [surveyCompleted, setSurveyCompleted] = useState(false);
+
+  // Define industry averages
+  const industryAverages = {
+    "Customer Experience": 3.65,
+    "Product & Services": 3.60,
+    "Strategy": 3.70,
+    "Interactions & Data Security": 3.70,
+    "Technology": 3.70,
+    "Operations": 3.75,
+    "Organization": 3.70,
+    "Partners & Alliances": 3.65
+  };
 
   useEffect(() => {
     const survey = new Model(json);
@@ -76,24 +86,18 @@ function SurveyComponent() {
       {surveyCompleted && (
         <div className="charts-container">
           <div className="bar-chart-container">
-            <BarChart averages={averages} />
+            <BarChart averages={averages} industryAverages={industryAverages} />
           </div>
-          <div className="bar-chart-container">
-            <IndustryAverageBarChart />
-          </div>
-          <div className="doughnut-chart-container">
+          {/* <div className="doughnut-chart-container">
             <DoughnutChart overallAverage={overallAverage} />
-          </div>
-          <div className="doughnut-chart-container">
-            <IndustryAverageDoughnutChart />
-          </div>
+          </div> */}
         </div>
       )}
     </div>
   );
 }
 
-const BarChart = ({ averages }) => {
+const BarChart = ({ averages, industryAverages }) => {
   const customPageNames = {
     page1: "Customer Experience",
     page2: "Product & Services",
@@ -105,22 +109,30 @@ const BarChart = ({ averages }) => {
     page8: "Partners & Alliances"
   };
 
+  // Combine individual averages and industry averages
+  const combinedData = averages.flatMap(avg => [
+    { label: customPageNames[avg.label] || avg.label, average: avg.average },
+    { label: `${customPageNames[avg.label]} (Industry Avg)`, average: industryAverages[customPageNames[avg.label]] || 0 }
+  ]);
+
   const data = {
-    labels: averages.map(avg => customPageNames[avg.label] || avg.label),
+    labels: combinedData.map(avg => avg.label),
     datasets: [{
       label: 'Average',
-      data: averages.map(avg => avg.average),
-      backgroundColor: ['#FFE6E6', '#E1AFD1', '#AD88C6', '#7469B6']
+      data: combinedData.map(avg => avg.average),
+      backgroundColor: ['#FFE6E6', '#FFCE56', '#E1AFD1', '#AD88C6', '#FF9F40', '#7469B6', '#49E887', '#2C99FF']
     }]
   };
 
   const options = {
+    maintainAspectRatio: false, // Disable aspect ratio maintenance
+    responsive: true,
     scales: {
       y: {
         ticks: {
           stepSize: 0.2,
           minTicksLimit: 3,
-          maxTicksLimit: 5
+          maxTicksLimit: 5,
         }
       }
     }
@@ -141,15 +153,16 @@ const DoughnutChart = ({ overallAverage }) => {
     }]
   };
 
-  return (
-    <div className="doughnut-chart-container">
-      <Doughnut data={data} />
-      <p>Overall Average: {roundedAverage}</p>
-    </div>
-  );
+  // return (
+  //   // <div className="doughnut-chart-container">
+  //   //   <Doughnut data={data} />
+  //   //   <p>Overall Average: {roundedAverage}</p>
+  //   // </div>
+  // );
 };
 
 export default SurveyComponent;
+
 
 
 
