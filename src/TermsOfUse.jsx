@@ -7,9 +7,9 @@ function TermsOfUse({ onClose }) {
       <div className="modal-content">
         <div className="terms-header">
           <h2>Terms of Use</h2>
-          <button onClick={onClose}>Back to Assessment</button>
+          <button className="close-btn" onClick={onClose}>Back to Assessment</button>
         </div>
-        <p>
+        <p className="terms-content">
           These Terms of Use ("Terms") govern your access to and use of the
           Digital Needs Assessment Survey (the "Survey"). By accessing or using
           the Survey, you agree to be bound by these Terms.
