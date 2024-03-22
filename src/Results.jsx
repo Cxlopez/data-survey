@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-function Results() {
+function Results({ overallAverage }) {
+
   return (
-    <div>Results</div>
-  )
+    <div>
+      Results:
+      <p>Your overall average is: {overallAverage}</p>
+    </div>
+  );
 }
 
-export default Results
+
+export default Results;

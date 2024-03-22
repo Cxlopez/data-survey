@@ -7,6 +7,7 @@ import { json } from "./data/json";
 import { Bar, Doughnut } from "react-chartjs-2";
 import { Chart } from 'chart.js/auto'; // Import Chart.js
 import "./surveyComponent.css";
+import Results from './Results'
 
 function SurveyComponent() {
   const [surveyModel, setSurveyModel] = useState(null);
@@ -88,6 +89,7 @@ function SurveyComponent() {
           <div className="bar-chart-container">
             <BarChart averages={averages} industryAverages={industryAverages} />
           </div>
+          <Results overallAverage={overallAverage} industryAverages={industryAverages}/>
           {/* <div className="doughnut-chart-container">
             <DoughnutChart overallAverage={overallAverage} />
           </div> */}
