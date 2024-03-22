@@ -1,6 +1,6 @@
 import React from "react";
 import "./TermsOfUse.css";
-import TermsOfUseContent from "././content/terms.json";
+import Terms from './content/Terms.jsx';
 
 
 function TermsOfUse({ onClose }) {
@@ -8,11 +8,11 @@ function TermsOfUse({ onClose }) {
     <div className="modal-overlay">
       <div className="modal-content">
         <div className="terms-header">
-          <h2>{TermsOfUseContent.title}</h2>
+          <h2>Terms of Use</h2>
           <button className="close-btn" onClick={onClose}>Back to Assessment</button>
         </div>
         <p className="terms-content">
-        {TermsOfUseContent.content}
+        <Terms/>
         </p>
       </div>
     </div>
