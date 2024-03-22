@@ -14,12 +14,10 @@ function Results({ overallAverage, industryAverages }) {
   );
 }
 
-function calculateStage(overallAverage, industryAverage) {
-  const difference = overallAverage - industryAverage;
-
-  if (difference >= 0.5) {
+function calculateStage(overallAverage) {
+  if (overallAverage <= 0.5) {
     return 'Emerging';
-  } else if (difference >= 0) {
+  } else if (overallAverage <= 0.7) {
     return 'Developing';
   } else {
     return 'Optimus Prime';
