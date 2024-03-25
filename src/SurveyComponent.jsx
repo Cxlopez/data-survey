@@ -154,6 +154,18 @@ const BarChart = ({ averages, industryAverages }) => {
           }
         }
       }
+    },
+    animation: {
+      onComplete: () => {
+        console.log('Chart animation completed');
+      },
+      delay: (context) => {
+        let delay = 0;
+        if (context.type === 'data' && context.mode === 'default') {
+          delay = context.dataIndex * 300 + context.datasetIndex * 100;
+        }
+        return delay;
+      }
     }
   };
 
