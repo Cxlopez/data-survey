@@ -49,7 +49,7 @@ function SurveyComponent() {
       page.elements.forEach((question) => {
         const response = data[question.name];
         if (response !== undefined) {
-          total += parseInt(response);
+          total += parseFloat(response);
           count++;
         }
       });
@@ -71,7 +71,7 @@ function SurveyComponent() {
       page.elements.forEach((question) => {
         const response = data[question.name];
         if (response !== undefined) {
-          total += parseInt(response);
+          total += parseFloat(response);
           count++;
         }
       });
@@ -116,16 +116,25 @@ const BarChart = ({ averages, industryAverages }) => {
   ]);
 
   const data = {
-    labels: combinedData.map(avg => avg.label),
+    labels: Object.keys(customPageNames).map(key => customPageNames[key]),
     datasets: [{
-      label: 'Average',
-      data: combinedData.map(avg => avg.average),
-      backgroundColor: ['#FFE6E6', '#FFCE56', '#E1AFD1', '#AD88C6', '#FF9F40', '#7469B6', '#49E887', '#2C99FF']
+      label: 'Survey Average',
+      data: averages.map(avg => avg.average),
+      backgroundColor: averages.map(avg => avg.average <= 1 ? '#D60000' : '#0358B6'), // Blue for < 1, Red for >= 1
+      borderColor: '#000',
+      borderWidth: 1
+    }, {
+      label: 'Industry Average',
+      data: Object.values(industryAverages),
+      backgroundColor: '#44DE28', // Green for industry average
+      borderColor: '#000',
+      borderWidth: 1
     }]
   };
 
+
   const options = {
-    maintainAspectRatio: false, // Disable aspect ratio maintenance
+    maintainAspectRatio: false,
     responsive: true,
     scales: {
       y: {
@@ -133,6 +142,16 @@ const BarChart = ({ averages, industryAverages }) => {
           stepSize: 0.2,
           minTicksLimit: 3,
           maxTicksLimit: 5,
+          font: {
+            size: 16, // Set font size for y-axis ticks
+          }
+        }
+      },
+      x: {
+        ticks: {
+          font: {
+            size: 16, // Set font size for x-axis ticks
+          }
         }
       }
     }
