@@ -85,13 +85,13 @@ function SurveyComponent() {
     // Hook into beforeprint event to resize charts before printing
     window.addEventListener('beforeprint', resizeChartsBeforePrint);
 
-    // Optionally, handle the afterprint event to restore the automatic size of charts after printing
-    // window.addEventListener('afterprint', restoreChartSizeAfterPrint);
+    // Hook into afterprint event to restore chart size after printing
+    window.addEventListener('afterprint', resizeChartsAfterPrint);
 
     return () => {
       // Remove event listeners when component unmounts
       window.removeEventListener('beforeprint', resizeChartsBeforePrint);
-      // window.removeEventListener('afterprint', restoreChartSizeAfterPrint);
+      window.removeEventListener('afterprint', resizeChartsAfterPrint);
     };
   }, []);
 
@@ -99,6 +99,28 @@ function SurveyComponent() {
   const resizeChartsBeforePrint = () => {
     for (let id in Chart.instances) {
       Chart.instances[id].resize();
+    }
+  };
+
+  // Function to restore chart size after printing
+  const resizeChartsAfterPrint = () => {
+    // Restore the chart size to its original size here if needed
+    const originalChartSizes = {}; // Store original chart sizes
+    
+    // Loop through all Chart.js instances
+    for (let id in Chart.instances) {
+      const chart = Chart.instances[id];
+      
+      // Store original size if not already stored
+      if (!originalChartSizes[id]) {
+        originalChartSizes[id] = {
+          width: chart.width,
+          height: chart.height
+        };
+      }
+
+      // Set chart size back to its original dimensions
+      chart.resize(originalChartSizes[id].width, originalChartSizes[id].height);
     }
   };
 
@@ -173,6 +195,4 @@ const BarChart = ({ averages, industryAverages }) => {
 };
 
 export default SurveyComponent;
-
-
 
