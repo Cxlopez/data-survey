@@ -13,23 +13,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Our organization doesn't do digital marketing but we'd like to learn"
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our organization is starting to engage with customers through digital marketing"
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We have developed a digital marketing strategy and are beginning to implement specific digital marketing initiatives"
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Our organization puts significant effort into digital marketing across multiple channels to engage customers but we do not have clear metrics and mechanisms to report on the efficacy of these initiatives."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Our organization focuses onenhancing customer experience through digital channels such as web, mobile and social media with a clear strategy, budget, goals and performance metrics for each channel."
        },
        {
@@ -45,23 +45,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not provide our customers with online access"
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We provide basic online access (e.g. website) to our customers."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We provide online access to our customers bue services are limited and not seamlessly"
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We provide a wide range of services through online access to our customer but these are not seamlessly integrated."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "The customers are provided with seamless and integrated access to all services from a single system."
        },
        {
@@ -77,23 +77,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Customer related information and processes are all manual."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We have started to identify customer related processses that can be digitized"
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We have digitized some of our customer related processes"
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Customer related processes are mostly digitized and automated, requiring limited manual intervention"
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Customer related processes are all digitized and automated."
        },
        {
@@ -109,23 +109,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not use data to understand and address customer needs and manage customer experience."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We understand the importance of the data to address customer needs but have a limited know-how on the leverage data."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We utilize few data points to understand and address customer needs and manage customer experience."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "our customer experience design is informaed by qualititive and quantitative customer insights drawn from data."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We manage customer experience by continuously monitoring several data points and balancing customer needs with the cost to deliver."
        },
        {
@@ -141,23 +141,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not collect customer feedback"
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our organization collects customer feedback through word of mouth, or manually recording customer complaints"
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Our organization collects customer feedback by sending out surveys on a periodic basis e.g. monthly, semi-annually, annually."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "our organization collects customer feedback through certain digital channels to understand ongoing customer experience."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "feedback is captured across all channels of the customer journey to understand ongoing customer experience."
        },
        {
@@ -179,23 +179,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Our marketing strategy does not use a multi-channel approach."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our marketing strategy considers a multi-channel approach but customer experience is not consistent across different channels backslash platforms"
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Our marketing strategy uses a multi-channel approach to reach customers through different platforms (web, mobile, In person, phone, Social Etc).com providing a consistent experience across these platforms."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Our marketing strategy is optimized to reach cell and interact with customers through a multi-channel app( web Ecommerce, customer portal), mobile ( application, responsive website), in person, phone and social. customer experience is consistent across all platforms."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Our multi-channel marketing strategy ensures that we present personalized products and services to our customers irrespective of the platforms through which they engage most often."
        },
        {
@@ -211,23 +211,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not utilize a customer analytics platform."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We leverage basic information to Target customers using a limited set of related data ( E.G customer offers that are relevant based on priority purchases history)."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We Leverage Analytics and have solid knowledge of customers across a range of attributable elements ( e. g. channel, category, Department) enabling us to segment and Target customers appropriately."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We leverage a strong customer analytics platform ( Data storage, analytics, customer relationship tools) to segment, attract, acquire, expand and retain across the entire customer life cycle."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We have a robust customer analytics platform that allows us to gain a deep understanding of our Target customer segments( allowing for micro segmentation), our performance within each segment and an approach to win and defend market share."
        },
        {
@@ -243,23 +243,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We haven't yet invested in any digital capabilities and tools to address customer needs."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We invest in digital capabilities on an ad hoc basis to address specific customer needs."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "we plan digital Investments for a set of basic customer facing activities(e.g. investments in chat bots) as part of our annual planning cycles."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "we plan digital Investments annually to enhance overall customer experience (e.g. Portal design, Dynamic virtual assistants, advanced search functionality)."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We continuously explore and invest in new digital capabilities to provide the Best in Class customer experience. Digital Investments for customers' needs are a key strategic pillar of our organization."
        },
        {
@@ -275,23 +275,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We haven't yet allocated any marketing Investments towards digital assets."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "There is limited focus on digital assets as part of our brand and marketing investments."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Our brand and marketing Investments are appropriately allocated across physical digital assets."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "The focus of our brand and marketing investment is Shifting more towards digital assets."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Digital assets are a major focus of our brand and marketing Investments."
        },
        {
@@ -307,23 +307,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We are not aware of digital tools and platforms that can assist in identification and acquisition of new customers."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We are aware of digital tools and platforms that can assist in identification and acquisition of new customers but have limited knowledge of how to use these tools."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We use some basic digital tools to connect with potential customers as part of our customer acquisition process but are not sure if these tools are the right ones for us."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We use digital tools platforms and forms as a mechanism to connect with and acquire new customers but the use of these tools ( and other platforms to help us) can be optimized."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "we use Advanced Digital search engagement and connection mechanisms (e.g. virtual trade shows) as part of the customer acquisition process and have found success in using these digital Avenues as part of our customer acquisition process."
        },
        {
@@ -345,23 +345,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We want to experience greater success and efficiency but just need help getting started."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We are starting to realize the impact of digital on our business but do not know specifically how it will impact our business."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We recognize the impact of digital on our business and have an understanding of the specific areas that it will impact in the short and medium term."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We clearly understand how digital is impacting the overall industry and our business and periodically investing in the Technologies to keep up with the competition."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We have a Clear Vision for how digital will transform our industry and business and are investing to drive disruption, disruptive technology and Innovation are essential parts of our agenda."
        },
        {
@@ -377,23 +377,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not have a digital plan."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We do not have a defined Cadence to review our digital plan. We update the plan on an ad hoc/ as needed basis."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "our digital plan is updated once every few years (e.g. 3-year digital plan)."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "The digital plan is updated every year and is Loosely tracked against the overall strategic business plan."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Our digital plan is updated every year and is tracked on a regular basis alongside the Strategic business plan. the question is not applicable to our organization."
        },
        {
@@ -409,23 +409,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not plan for investments in digital initiatives."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our plan for investments in digital initiatives is prepared on an ad hoc basis."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Digital Investments are decided and planned by a Department for specific initiatives focusing on only their current needs."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Digital Investments are decided and planned by departments for transformational programs and consider current and Future needs."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Digital Investments are planned and prioritized at an organizational level in addition to being a driver to transformational programs."
        },
        {
@@ -441,23 +441,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not collect or analyze data for decision making and data is not an integral part of our strategy."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We collect data from different sources but do not know how to use/ mine insights from data for business level decision making."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We use basic data and Analytics methods to drive business insights on an ad hoc basis."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "specific departments use insights mine from data to support the decision-making process."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We use Advanced analytic techniques ( throughout the organization) to match specific business needs."
        },
        {
@@ -473,23 +473,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not use digital tools to monitor business operations."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Leadership is provided with basic reports ( mostly manual and Excel based) on an ad hoc/ as needed basis."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Leadership, mid-management and functional teams are provided basic reports, kpis and dashboards on a regular basis (Mix of tools - excel, other applications)."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Dashboards ( non-real time), advanced reports and kpis are available to employees through specific visualization tools to support their decision making process."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Real-time dashboards are available to employees to support decision making through strong data analytic tools."
        },
        {
@@ -505,23 +505,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not have a formal and defined data governance strategy and policy."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our data governance strategy and policy is defined but has not been fully implemented across the organization."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Our data governance strategy and policy is defined and implemented by individual departments but not updated regularly."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Our standard data governance strategy and policy is defined and fully implemented across the organization and revised periodically."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Governance policies and procedures are fully implemented and clearly understood throughout The organization ( with respect to security, privacy, data quality Etc.) and are updated frequently."
        },
        {
@@ -537,23 +537,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not have dedicated systems or tools to handle customer data."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We collect and store basic customer data to perform a limited set of analysis."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Our organization collects customer data from a variety of sources for ad hoc analysis but integration between the systems is limited."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "are organization has dedicated systems (e.g. CRM system) in place to track and store customer data but manual manipulation is required to analyze data."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Our systems are fully automated, integrated and capable of collecting, preparing and analyzing customer data from a variety of sources ( in various data formats) resulting in in-depth customer insights."
        },
        {
@@ -569,23 +569,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Digital Investments to improve internal functions are rarely considered in our annual planning and budgeting cycle but we'd like to learn more."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We review the need for digital Technologies for internal functions on a short-term basis and allocate capital accordingly."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We plan and budget for investments in digital Technologies for internal functions every few years."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We plan and budget for investments in digital Technologies for internal functions as part of our annual budgeting cycles."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Digital Investments to enhance efficiency of internal functions are considered as a strategic imperative and form a part of our long-term roadmap and planning and budgeting process."
        },
        {
@@ -607,23 +607,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not have an organized structure to manage digital content for online platforms."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our organization periodically monitors content quality and relevance on online platforms.The approach is ad hoc and reactive in nature."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We have a formalized structure ( of people and process) to regularly create new digital content. We monitor the quality and relevance of our content on online platforms and update content based on feedback.."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We have an organized set up to regularly Monitor and update digital content to keep key trends in view. we use analytical tools and techniques to determine relevance of our content on digital platforms however, our content is not very customized"
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We are proactive in our management of digital content with a dedicated team of experts responsible for creating and managing digital content with a focus on personalized customer experience branding and promotional needs driven by data and Analytics."
        },
        {
@@ -639,23 +639,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not use social media."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We use social media but not for actively engaging with our existing and potentially new customers."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We are active on social media, but our organization does not have a formal set of policies guidelines in place."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We are active on social media and have a formal set of policies/ guidelines in place but do not have defined content plan and customer Outreach strategy."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "there is a social media content plan with goals to encourage brand recognition, relationship and customer loyalty. We have an up-to-date set of social media policies/ guidelines and proactively managed our online reputation."
        },
        {
@@ -671,23 +671,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "I don't know the answer."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We rely on our partners to secure our data ( cloud service providers)."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "there is a clear understanding of our cybersecurity within our organization with high level directives to meet strategic objectives."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Data security is a strategic imperative across the organization that is evaluated and adjusted annually. We have processes, agreements and controls in place to maintain the confidentiality and integrity of sensitive data transmitted outside of organizational boundaries and 2/3 parties."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We involve our security team for planning any digital initiative. A cyber security plan is included in the project data architecture and design including the documentation of Cyber attack prevention, detection, response and Recovery measures."
        },
        {
@@ -703,23 +703,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "I don't know the answer."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our organization understands the criticality of data privacy."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "There is a high level understanding within the organization and expectation of the employees to protect company and customer data."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Employees are well informed and educated about data privacy and have contractual obligations in place to ensure data is protected."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Data privacy protection is a strategic concern across the organization and is managed by a security officer."
        },
        {
@@ -741,23 +741,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not have dedicated service management."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We have self-trained internal support who can handle levels of system failures and incidents."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "In the event of a system failure, incidents are resolved as per severity and impact. We have some down time due to these incidents and redundancy is not fully built into all of our systems."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We have minimal disruption and downtime due to system failures as we have high levels of redundancy and very strict SLAs for resolution of faults."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Our IT systems, processes and infrastructure are robust and resilient with services available 365 24/7 with almost no downtime."
        },
        {
@@ -773,23 +773,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not use cloud services."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We have a plan to use cloud services, but are unclear about providers, costs which Cloud models work for us."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "The use of cloud services has been considered and a mapping of services, application and data hosting on cloud has been completed. Some of our applications and services reside in the public and hybrid Cloud environments."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Usage of cloud services is prevalent across the organizations for a variety of applications and services, however there is no defined Cloud strategy and roadmap."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "There is a clearly defined and updated Cloud strategy, roadmap and implementation plan that outlines Cloud usage across the business for different services and applications."
        },
        {
@@ -805,23 +805,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not have all the skills or capacity to experiment with the new technologies."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We have very limited knowledge, skills or capacity to experiment with new technologies."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We have the technology skill set/ capability and are now exploring Automation and advancement."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We believe in ideating and developing innovative solutions to problems that are underpinned by technology. For example we have started automating some repetitive and manual tasks with robotic process automation(RPA) and workflow automation."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We continually work and experiment with Advanced Technologies like Internet of Things(IoT), artificial intelligence (AI) machine learning (ML) robotics to transform our business."
        },
        {
@@ -837,23 +837,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not manage risk associated with the impact of digitization on our business. We can't afford to take risks and our business can't sustain it."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We manage risk associated with digital initiatives on an ad hoc/ as needed basis."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We have a risk management framework that incorporates risk associated with digital digitization and monitor controls for these risks."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We proactively manage risk associated with digital but do not have a dedicated risk management team."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We have a dedicated risk management task force/ specialist with oversight in all digital activities, assets and initiatives across the business."
        },
        {
@@ -869,23 +869,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Our technology architecture does not meet our current needs."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our technology architecture is siloed and is designed to meet only the current needs of users within limited ability to scale in the short term."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Our technology architecture has a basic level of integration and is designed to scale to meet short and medium-term needs."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Our technology architecture is well designed and planned with high levels of integration and scalability."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We have a fully dynamic, completely integrated and scalable technology architecture that enables us to meet the current and future needs of users."
        },
        {
@@ -907,23 +907,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Our back office business operations are manual and are not connected."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Some of our back office business operations are digitized but are not interconnected."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Some of our back office functions and systems are digitized and interconnected."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "All of our back office functions and systems are digitized but not all Arc interconnected."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "All of our back office systems are digitized and seamlessly integrated."
        },
        {
@@ -939,23 +939,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Our middle Office business operations are manual and are not connected."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Some of our middle Office business operations are digitized but are not connected."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Some of our middle office functions and systems are digitized and interconnected."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "All of our middle office functions and systems are digitized but not all are interconnected."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "All of our middle office systems are digitized and interconnected."
        },
        {
@@ -971,23 +971,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Our front office business operations are manual and are not connected. some of our front office business operations are digitized but are not connected"
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Some of our front office systems are digitized and not interconnected."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Some of our front office systems are digitized and interconnected"
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "All of our front office functions and systems are digitized but not all are interconnected."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "All of our front office systems are digitized and interconnected."
        },
        {
@@ -1003,23 +1003,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We track monitors manually."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We use basic tools (e.g. Excel spreadsheets) to track and monitor our supply chain."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We use specific supply chain tools to monitor the supply chain for a limited set of functions."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We use digital tools to monitor our supply chain for all functions, but end-to-end integration and visibility are limited."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We have enabling and integrated digital tools to assist us in understanding product flows and Roots across the supply chain(e.g. track and Trace movements, manage Freight forwarders, export/ import and associated taxes)."
        },
        {
@@ -1041,23 +1041,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We don't believe we have the capacity for developing and delivering digital initiatives."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "our current organizational structure personnel, rules definition, hierarchy) limits us from successfully adopting and delivering digital initiatives."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "In our current organization, business managers are primarily accountable for developing and delivering digital initiatives."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Each department is responsible and accountable for planning and delivery of their digital strategy."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "There is a centralized cross-functional structure that is responsible for digital capacity planning/ Development/ delivery across the business."
        },
        {
@@ -1073,23 +1073,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not have any skilled Personnel available to perform data analytics."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We have somewhat skilled analytics resources, but they are spread across organizations with no single line of responsibility."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We have skilled data analytic personnel, but they are spread across the organization with no single line of responsibility."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Data analytics Personnel are multi disciplined, with structure in place to effectively support analysis requirements across the whole business."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We have a highly skilled data analytics team to support the business and we are consistently on the lookout for talent in the field of Advanced Data science."
        },
        {
@@ -1105,23 +1105,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Digital initiatives are ad hoc and no policies exist."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We have progressed but policies are ad hoc around the new digital avenues."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Specific policies exist to address new digital usage phenomena (E.G. the use of social media, byod- bring your own device)."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Our policy and guidelines to address digital initiatives are frequently updated. however, they may not be comprehensive and forward-looking."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "There are clear forward-looking policies, guidelines and accountability for digital initiatives in our organization supported by a border or a committee."
        },
        {
@@ -1137,23 +1137,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We want to remain competitive, but to be honest we find digital to be a bit daunting."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Leadership is open to digital opportunities but they do not possess the necessary technical knowledge/ skills or the understanding of how these Technologies could positively impact the organization."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Our leadership understands the importance of digital and supports specific digital initiatives driven by individual departments."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Digital initiatives are handled by the IT department, which is responsible for planning and executing digital initiatives in the organization."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "The digital lead/ Chief digital officer reports to the CEO and to employees to deploy to the different Departments of the organization."
        },
        {
@@ -1169,23 +1169,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "There is no designated person or mechanism with the necessary skills to see what has to change."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "There is no formal structure for change management. Change resulting from implementation of digital initiatives and programs is held reactively, driven primarily by incidents."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Change management for digital initiatives is handled by each department ( no centralized capability)."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We have an internal Communications plan to build a common understanding, commitment and consensus around implementing digital initiatives, supported by leaders at all levels of the organization."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "There is a formal centralized change management capability to support digital initiative, track progress, evaluate outcomes and adjust accordingly."
        },
        {
@@ -1201,23 +1201,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Employees are not motivated or do not have sufficient knowledge to adopt new technologies ."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "A subset of employees are technologically inclined and self-learn new technologies. however there is no mechanism in the organization to incentivize and train employees formally On Tools Technologies and trends."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Engagement is at management level only department leaders are incentivized to increase the adoption and usage of Technologies and learn them."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Employees at certain levels are encouraged/ supported to learn and get trained on new technologies."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Employees at all levels are encouraged to learn and get trained on new technologies. The recruitment process considers the digital skills of candidates."
        },
        {
@@ -1233,23 +1233,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Our employees need to be on-premises to access systems and tools because our type of business can't operate remotely."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our employees have limited access tools and applications to effectively work remotely."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Our company internet offers some employees remote access to select applications."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "Our company offers remote access to all core applications to all relevant employees."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "All employees are fully equipped and have the necessary access to applications to perform work remotely."
        },
        {
@@ -1265,23 +1265,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "Our business is small so we do not need tools to collaborate or communicate."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "Our teams have begun using technology to collaborate more effectively but we have limited knowledge on which tools to use and how to use them effectively."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "Our organization encourages cross-functional collaboration but adoption of advanced collaboration is limited."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "The organization has a project-based culture where teams contribute and collaborate frequently using traditional tools such as email and common repository for documents."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "Our organization Fosters cross-functional collaboration through culture structure and tools ( such as sharepoint, teams/ Slack, Skype, etc.)."
        },
        {
@@ -1303,23 +1303,23 @@ export const json = {
       "isRequired": true,
       "choices": [
        {
-        "value": "0.50",
+        "value": "1.00",
         "text": "We do not engage with third parties, form Partnerships or alliances as part of our digital transformation.."
        },
        {
-        "value": "0.75",
+        "value": "2.00",
         "text": "We are open to working with third parties but do not have a defined strategy to form and develop Partnerships and alliances."
        },
        {
-        "value": "1.00",
+        "value": "3.00",
         "text": "We see working with Partners as critical to our digital transformation Journey but have limited Avenues to identify the right partners for our initiatives."
        },
        {
-        "value": "1.25",
+        "value": "4.00",
         "text": "We engage with specific Partners on an as needed basis as part of our digital transformation and are consistently exploring further Avenues to collaborate."
        },
        {
-        "value": "1.50",
+        "value": "5.00",
         "text": "We have a well-defined partnership strategy and work collaboratively with a select set of Partners to help execute our digital transformation goals."
        },
        {
