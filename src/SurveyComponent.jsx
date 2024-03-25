@@ -120,18 +120,26 @@ const BarChart = ({ averages, industryAverages }) => {
     datasets: [{
       label: 'Survey Average',
       data: averages.map(avg => avg.average),
-      backgroundColor: averages.map(avg => avg.average <= 1 ? '#D60000' : '#0358B6'), // Blue for < 1, Red for >= 1
+      backgroundColor: averages.map(avg => {
+        if (avg.average < 1.5) {
+          return '#D60000'; // Red for values less than 1.5
+        } else if (avg.average >= 1.5 && avg.average < 3) {
+          return '#FFD700'; // Yellow for values between 1.5 and 3
+        } else {
+          return '#44DE28'; // Green for values greater than or equal to 3
+        }
+      }),
       borderColor: '#000',
       borderWidth: 1
     }, {
       label: 'Industry Average',
       data: Object.values(industryAverages),
-      backgroundColor: '#44DE28', // Green for industry average
+      backgroundColor: '#0358B6', // Green for industry average
       borderColor: '#000',
       borderWidth: 1
     }]
   };
-
+  
 
   const options = {
     maintainAspectRatio: false,
