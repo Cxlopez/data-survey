@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Model } from "survey-core";
 import { Survey } from "survey-react-ui";
 import "survey-core/defaultV2.min.css";
 import { themeJson } from "./theme";
 import { json } from "./data/json";
-import { Bar, Doughnut } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import { Chart } from 'chart.js/auto'; // Import Chart.js
+import { useReactToPrint } from 'react-to-print';
 import "./surveyComponent.css";
 
 function SurveyComponent() {
@@ -80,17 +81,42 @@ function SurveyComponent() {
     return count > 0 ? total / count : 0;
   };
 
+  useEffect(() => {
+    // Hook into beforeprint event to resize charts before printing
+    window.addEventListener('beforeprint', resizeChartsBeforePrint);
+
+    // Optionally, handle the afterprint event to restore the automatic size of charts after printing
+    // window.addEventListener('afterprint', restoreChartSizeAfterPrint);
+
+    return () => {
+      // Remove event listeners when component unmounts
+      window.removeEventListener('beforeprint', resizeChartsBeforePrint);
+      // window.removeEventListener('afterprint', restoreChartSizeAfterPrint);
+    };
+  }, []);
+
+  // Function to resize charts before printing
+  const resizeChartsBeforePrint = () => {
+    for (let id in Chart.instances) {
+      Chart.instances[id].resize();
+    }
+  };
+
+  const handlePrint = useReactToPrint({
+    content: () => document.getElementById("bar-chart-container"),
+    documentTitle: 'Survey Report',
+    onAfterPrint: () => console.log('Printed successfully!'),
+  });
+
   return (
     <div>
       {surveyModel && <Survey model={surveyModel} />}
       {surveyCompleted && (
         <div className="charts-container">
-          <div className="bar-chart-container">
+          <div id="bar-chart-container" className="bar-chart-container">
             <BarChart averages={averages} industryAverages={industryAverages} />
           </div>
-          {/* <div className="doughnut-chart-container">
-            <DoughnutChart overallAverage={overallAverage} />
-          </div> */}
+          <button onClick={handlePrint}>Print Survey Report</button>
         </div>
       )}
     </div>
@@ -109,7 +135,6 @@ const BarChart = ({ averages, industryAverages }) => {
     page8: "Partners & Alliances"
   };
 
-  // Combine individual averages and industry averages
   const combinedData = averages.flatMap(avg => [
     { label: customPageNames[avg.label] || avg.label, average: avg.average },
     { label: `${customPageNames[avg.label]} (Industry Avg)`, average: industryAverages[customPageNames[avg.label]] || 0 }
@@ -139,69 +164,15 @@ const BarChart = ({ averages, industryAverages }) => {
       borderWidth: 1
     }]
   };
-  
 
-  const options = {
-    maintainAspectRatio: false,
-    responsive: true,
-    scales: {
-      y: {
-        ticks: {
-          stepSize: 0.2,
-          minTicksLimit: 3,
-          maxTicksLimit: 5,
-          font: {
-            size: 16, // Set font size for y-axis ticks
-          }
-        }
-      },
-      x: {
-        ticks: {
-          font: {
-            size: 16, // Set font size for x-axis ticks
-          }
-        }
-      }
-    },
-    animation: {
-      onComplete: () => {
-        console.log('Chart animation completed');
-      },
-      delay: (context) => {
-        let delay = 0;
-        if (context.type === 'data' && context.mode === 'default') {
-          delay = context.dataIndex * 300 + context.datasetIndex * 100;
-        }
-        return delay;
-      }
-    }
-  };
-
-  return <Bar data={data} options={options} />;
-};
-
-const DoughnutChart = ({ overallAverage }) => {
-  const roundedAverage = overallAverage.toFixed(2);
-
-  const data = {
-    labels: ['Overall Average'],
-    datasets: [{
-      label: 'Overall Average',
-      data: [overallAverage],
-      backgroundColor: ['#E1AFD1']
-    }]
-  };
-
-  // return (
-  //   // <div className="doughnut-chart-container">
-  //   //   <Doughnut data={data} />
-  //   //   <p>Overall Average: {roundedAverage}</p>
-  //   // </div>
-  // );
+  return (
+    <div>
+      <Bar data={data} options={{ maintainAspectRatio: false, responsive: true }} />
+    </div>
+  );
 };
 
 export default SurveyComponent;
-
 
 
 
