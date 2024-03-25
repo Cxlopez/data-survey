@@ -1,11 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Model } from "survey-core";
 import { Survey } from "survey-react-ui";
 import "survey-core/defaultV2.min.css";
 import { themeJson } from "./theme";
 import { json } from "./data/json";
-import { Bar, Doughnut } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import { Chart } from 'chart.js/auto'; // Import Chart.js
+import { useReactToPrint } from 'react-to-print';
 import "./surveyComponent.css";
 import Results from './Results'
 
@@ -50,7 +51,7 @@ function SurveyComponent() {
       page.elements.forEach((question) => {
         const response = data[question.name];
         if (response !== undefined) {
-          total += parseInt(response);
+          total += parseFloat(response);
           count++;
         }
       });
@@ -72,7 +73,7 @@ function SurveyComponent() {
       page.elements.forEach((question) => {
         const response = data[question.name];
         if (response !== undefined) {
-          total += parseInt(response);
+          total += parseFloat(response);
           count++;
         }
       });
@@ -81,18 +82,67 @@ function SurveyComponent() {
     return count > 0 ? total / count : 0;
   };
 
+  useEffect(() => {
+    // Hook into beforeprint event to resize charts before printing
+    window.addEventListener('beforeprint', resizeChartsBeforePrint);
+
+    // Hook into afterprint event to restore chart size after printing
+    window.addEventListener('afterprint', resizeChartsAfterPrint);
+
+    return () => {
+      // Remove event listeners when component unmounts
+      window.removeEventListener('beforeprint', resizeChartsBeforePrint);
+      window.removeEventListener('afterprint', resizeChartsAfterPrint);
+    };
+  }, []);
+
+  // Function to resize charts before printing
+  const resizeChartsBeforePrint = () => {
+    for (let id in Chart.instances) {
+      Chart.instances[id].resize();
+    }
+  };
+
+  // Function to restore chart size after printing
+  const resizeChartsAfterPrint = () => {
+    // Restore the chart size to its original size here if needed
+    const originalChartSizes = {}; // Store original chart sizes
+    
+    // Loop through all Chart.js instances
+    for (let id in Chart.instances) {
+      const chart = Chart.instances[id];
+      
+      // Store original size if not already stored
+      if (!originalChartSizes[id]) {
+        originalChartSizes[id] = {
+          width: chart.width,
+          height: chart.height
+        };
+      }
+
+      // Set chart size back to its original dimensions
+      chart.resize(originalChartSizes[id].width, originalChartSizes[id].height);
+    }
+  };
+
+  const handlePrint = useReactToPrint({
+    content: () => document.getElementById("bar-chart-container"),
+    documentTitle: 'Survey Report',
+    onAfterPrint: () => console.log('Printed successfully!'),
+  });
+
   return (
     <div>
       {surveyModel && <Survey model={surveyModel} />}
       {surveyCompleted && (
         <div className="charts-container">
-          <div className="bar-chart-container">
+          <div id="bar-chart-container" className="bar-chart-container">
             <BarChart averages={averages} industryAverages={industryAverages} />
           </div>
+          <button onClick={handlePrint}>Print Survey Report</button>
+
           <Results overallAverage={overallAverage} industryAverages={industryAverages}/>
-          {/* <div className="doughnut-chart-container">
-            <DoughnutChart overallAverage={overallAverage} />
-          </div> */}
+
         </div>
       )}
     </div>
@@ -111,60 +161,42 @@ const BarChart = ({ averages, industryAverages }) => {
     page8: "Partners & Alliances"
   };
 
-  // Combine individual averages and industry averages
   const combinedData = averages.flatMap(avg => [
     { label: customPageNames[avg.label] || avg.label, average: avg.average },
     { label: `${customPageNames[avg.label]} (Industry Avg)`, average: industryAverages[customPageNames[avg.label]] || 0 }
   ]);
 
   const data = {
-    labels: combinedData.map(avg => avg.label),
+    labels: Object.keys(customPageNames).map(key => customPageNames[key]),
     datasets: [{
-      label: 'Average',
-      data: combinedData.map(avg => avg.average),
-      backgroundColor: ['#FFE6E6', '#FFCE56', '#E1AFD1', '#AD88C6', '#FF9F40', '#7469B6', '#49E887', '#2C99FF']
-    }]
-  };
-
-  const options = {
-    maintainAspectRatio: false, // Disable aspect ratio maintenance
-    responsive: true,
-    scales: {
-      y: {
-        ticks: {
-          stepSize: 0.2,
-          minTicksLimit: 3,
-          maxTicksLimit: 5,
+      label: 'Survey Average',
+      data: averages.map(avg => avg.average),
+      backgroundColor: averages.map(avg => {
+        if (avg.average < 1.5) {
+          return '#F38181'; // Red for values less than 1.5
+        } else if (avg.average >= 1.5 && avg.average < 3) {
+          return '#FCE38A'; // Yellow for values between 1.5 and 3
+        } else {
+          return '#D6F7AD'; // Green for values greater than or equal to 3
         }
-      }
-    }
-  };
-
-  return <Bar data={data} options={options} />;
-};
-
-const DoughnutChart = ({ overallAverage }) => {
-  const roundedAverage = overallAverage.toFixed(2);
-
-  const data = {
-    labels: ['Overall Average'],
-    datasets: [{
-      label: 'Overall Average',
-      data: [overallAverage],
-      backgroundColor: ['#E1AFD1']
+      }),
+      borderColor: '#000',
+      borderWidth: 1
+    }, {
+      label: 'Industry Average',
+      data: Object.values(industryAverages),
+      backgroundColor: '#95E1D3', // Green for industry average
+      borderColor: '#000',
+      borderWidth: 1
     }]
   };
 
-  // return (
-  //   // <div className="doughnut-chart-container">
-  //   //   <Doughnut data={data} />
-  //   //   <p>Overall Average: {roundedAverage}</p>
-  //   // </div>
-  // );
+  return (
+    <div>
+      <Bar data={data} options={{ maintainAspectRatio: false, responsive: true }} />
+    </div>
+  );
 };
 
 export default SurveyComponent;
-
-
-
 
