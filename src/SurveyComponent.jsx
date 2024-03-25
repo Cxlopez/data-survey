@@ -8,6 +8,7 @@ import { Bar } from "react-chartjs-2";
 import { Chart } from 'chart.js/auto'; // Import Chart.js
 import { useReactToPrint } from 'react-to-print';
 import "./surveyComponent.css";
+import Results from './Results'
 
 function SurveyComponent() {
   const [surveyModel, setSurveyModel] = useState(null);
@@ -139,6 +140,9 @@ function SurveyComponent() {
             <BarChart averages={averages} industryAverages={industryAverages} />
           </div>
           <button onClick={handlePrint}>Print Survey Report</button>
+
+          <Results overallAverage={overallAverage} industryAverages={industryAverages}/>
+
         </div>
       )}
     </div>

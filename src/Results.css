@@ -1,0 +1,14 @@
+.results-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #112848;
+  color: white;
+
+}
+.results-content {
+  padding: 25px;
+  margin-bottom: 0;
+}
