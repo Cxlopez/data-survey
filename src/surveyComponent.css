@@ -4,5 +4,5 @@ canvas {
 
 .charts-container {
   min-height: calc(100vh - 400px);
-  margin: 25px;
+  /* margin: 25px; */
 }
