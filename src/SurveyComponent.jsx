@@ -125,11 +125,9 @@ function SurveyComponent() {
     }
   };
 
-  const handlePrint = useReactToPrint({
-    content: () => document.getElementById("bar-chart-container"),
-    documentTitle: 'Survey Report',
-    onAfterPrint: () => console.log('Printed successfully!'),
-  });
+  const handlePrint = () => {
+    window.print(); // Trigger browser's print functionality
+  };
 
   return (
     <div>
@@ -141,7 +139,7 @@ function SurveyComponent() {
           </div>
           <button onClick={handlePrint}>Print Survey Report</button>
 
-          <Results overallAverage={overallAverage} industryAverages={industryAverages}/>
+          <Results id="results-component" overallAverage={overallAverage} industryAverages={industryAverages}/>
 
         </div>
       )}
