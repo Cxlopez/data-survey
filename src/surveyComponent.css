@@ -18,3 +18,9 @@ canvas {
   }
   /* Adjust other styles as needed */
 }
+
+.bar-chart-container {
+  flex: 1; /* Occupy 50% of the container width */
+  /* max-width: 50%; Remove or set to 100% */
+  max-width: 100%; /* Allow the container to occupy 100% of the parent width */
+}

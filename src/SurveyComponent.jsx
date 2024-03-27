@@ -4,7 +4,7 @@ import { Survey } from "survey-react-ui";
 import "survey-core/defaultV2.min.css";
 import { themeJson } from "./theme";
 import { json } from "./data/json";
-import { Bar } from "react-chartjs-2";
+import { Bar, Doughnut } from "react-chartjs-2";
 import { Chart } from 'chart.js/auto'; // Import Chart.js
 import { useReactToPrint } from 'react-to-print';
 import "./surveyComponent.css";
@@ -134,11 +134,13 @@ function SurveyComponent() {
       {surveyModel && <Survey model={surveyModel} />}
       {surveyCompleted && (
         <div className="charts-container">
+          <div className="doughnut-chart-container">
+            <DoughnutChart overallAverage={overallAverage} />
+          </div>
           <div id="bar-chart-container" className="bar-chart-container">
             <BarChart averages={averages} industryAverages={industryAverages} />
           </div>
-          <button onClick={handlePrint}>Print Survey Report</button>
-
+          {/* <button onClick={handlePrint}>Print Survey Report</button> */}
           <Results id="results-component" overallAverage={overallAverage} industryAverages={industryAverages}/>
 
         </div>
@@ -188,7 +190,7 @@ const BarChart = ({ averages, industryAverages }) => {
       borderWidth: 1
     }]
   };
-
+  let delayed;
   const options = {
     plugins: {
       title: {
@@ -197,6 +199,7 @@ const BarChart = ({ averages, industryAverages }) => {
       },
     },
     responsive: true,
+    maintainAspectRatio: false,
     indexAxis: 'y',
     scales: {
       x: {
@@ -205,12 +208,58 @@ const BarChart = ({ averages, industryAverages }) => {
       y: {
         stacked: true
       }
+    },
+    animation: {
+      onComplete: () => {
+        delayed = true;
+      },
+      delay: (context) => {
+        let delay = 0;
+        if (context.type === 'data' && context.mode === 'default' && !delayed) {
+          delay = context.dataIndex * 300 + context.datasetIndex * 100;
+        }
+        return delay;
+      },
+    },
+    layout: {
+      padding: {
+        left: 0, // Add left padding
+        right: 0 // Add right padding
+      }
     }
   };
 
   return (
     <div>
       <Bar data={data} options={options} />
+    </div>
+  );
+};
+
+const DoughnutChart = ({ overallAverage }) => {
+  const roundedAverage = overallAverage.toFixed(2);
+  const data = {
+    labels: ['Overall Average'],
+    datasets: [{
+      label: 'Overall Average',
+      data: [overallAverage],
+      backgroundColor: ['#E1AFD1']
+    }]
+  };
+
+  const options = {
+    layout: {
+      padding: {
+        left: 0, // Add left padding
+        right: 0 // Add right padding
+      }
+    }
+  };
+
+  return (
+    <div className="doughnut-chart-container">
+      <Doughnut data={data} options={options} />
+      <p>Overall Average: {roundedAverage}</p>
     </div>
   );
 };
