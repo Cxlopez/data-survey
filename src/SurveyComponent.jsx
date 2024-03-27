@@ -140,7 +140,7 @@ function SurveyComponent() {
           <div id="bar-chart-container" className="bar-chart-container">
             <BarChart averages={averages} industryAverages={industryAverages} />
           </div>
-          <button onClick={handlePrint}>Print Survey Report</button>
+          {/* <button onClick={handlePrint}>Print Survey Report</button> */}
 
           <Results id="results-component" overallAverage={overallAverage} industryAverages={industryAverages}/>
 

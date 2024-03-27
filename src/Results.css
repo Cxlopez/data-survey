@@ -1,14 +1,33 @@
 .results-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
-  background-color: #112848;
-  color: white;
-
+  background-color: white;
+  color: black;
+  margin: 20px;
 }
-.results-content {
-  padding: 25px;
-  margin-bottom: 0;
+
+.results-banner {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 90px);
+  height: 1rem;
+  background-color: #112848;
+  font-family: "PT sans", "Arial";
+  font-size: 2rem;
+  padding: 10px;
+  color: white;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.stage-header {
+  font-size: 2rem;
+  color: black;
+  font-weight: 700;
+  font-family: "PT sans", "Arial";
+  margin-left: 50px;
+  margin-top: 25px;
 }

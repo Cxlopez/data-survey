@@ -6,6 +6,10 @@ canvas {
   min-height: calc(100vh - 400px);
 }
 
+.bar-chart-container {
+  margin: 50px;
+}
+
 @media print {
   /* Adjust margins and other styles for printing */
   body {

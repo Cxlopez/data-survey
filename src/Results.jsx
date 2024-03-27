@@ -7,13 +7,8 @@ function Results({ overallAverage, industryAverages }) {
 
   return (
     <div className="results-container">
-      <p className="results-content">Results:
-      <br></br>
-      Your overall average is: {overallAverage.toFixed(2)}
-      <br></br>
-      The industry average is: {industryAverage.toFixed(2)}
-      <br></br>
-      You are in the {stage} stage.</p>
+      <div className="results-banner">Reccomendations for your next phase of growth</div>
+      <div className="stage-header"> You are in the {stage} stage.</div>
     </div>
   );
 }
