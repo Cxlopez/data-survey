@@ -189,9 +189,28 @@ const BarChart = ({ averages, industryAverages }) => {
     }]
   };
 
+  const options = {
+    plugins: {
+      title: {
+        display: true,
+        text: 'Chart.js Bar Chart - Stacked'
+      },
+    },
+    responsive: true,
+    indexAxis: 'y',
+    scales: {
+      x: {
+        stacked: true,
+      },
+      y: {
+        stacked: true
+      }
+    }
+  };
+
   return (
     <div>
-      <Bar data={data} options={{ maintainAspectRatio: false, responsive: true }} />
+      <Bar data={data} options={options} />
     </div>
   );
 };
