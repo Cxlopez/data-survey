@@ -3,7 +3,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-  margin:  25px 70px 5px 70px;
+  margin: 25px 70px 5px 70px;
+  
 }
 
 .header-logo {
@@ -16,4 +17,19 @@
   height: 1.5px;
   background-color: black;
   margin-bottom: 20px;
+}
+
+.assessment-overview {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 50px 25px 50px;
+  font-family: 'PT Sans', 'Arial';
+
+  .header {
+    font-size: 5rem;
+    width: 50%;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
+}
