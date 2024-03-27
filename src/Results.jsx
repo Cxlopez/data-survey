@@ -9,7 +9,7 @@ function Results({ overallAverage, industryAverages }) {
     <div className="results-container">
       <p className="results-content">Results:
       <br></br>
-      Your overall average is: {overallAverage}
+      Your overall average is: {overallAverage.toFixed(2)}
       <br></br>
       The industry average is: {industryAverage.toFixed(2)}
       <br></br>
@@ -19,12 +19,12 @@ function Results({ overallAverage, industryAverages }) {
 }
 
 function calculateStage(overallAverage) {
-  if (overallAverage <= 0.5) {
+  if (overallAverage <= 1.5) {
     return 'Emerging';
-  } else if (overallAverage <= 0.7) {
-    return 'Developing';
+  } else if (overallAverage <= 3.5) {
+    return 'Transitioning';
   } else {
-    return 'Optimus Prime';
+    return 'Leading';
   }
 }
 
