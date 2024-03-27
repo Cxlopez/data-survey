@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
   background-color: white;
   color: black;
   margin: 20px;
@@ -11,8 +10,7 @@
 .results-banner {
   display: flex;
   align-items: center;
-  width: calc(100% - 90px);
-  height: 1rem;
+  height: auto;
   background-color: #112848;
   font-family: "PT sans", "Arial";
   font-size: 2rem;
@@ -21,6 +19,7 @@
   margin: 0 auto;
   font-size: 25px;
   font-weight: bold;
+  width: 95%
 }
 
 .stage-header {
