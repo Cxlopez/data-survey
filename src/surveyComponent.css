@@ -7,12 +7,14 @@ canvas {
 }
 
 @media print {
-  /* Adjust the size of the printed content here */
-  #bar-chart-container {
-    width: 100%; /* Set the width to fit the page */
-    height: auto; /* Set the height to auto to maintain aspect ratio */
-    margin: 0 auto; /* Add margin to center the content on the page */
-    page-break-before: always; /* Ensure the chart starts on a new page */
+  /* Adjust margins and other styles for printing */
+  body {
+    margin: 0;
   }
+  .charts-container {
+    /* Set appropriate width and height to fit content on one page */
+    width: 100%;
+    height: 100%;
+  }
+  /* Adjust other styles as needed */
 }
-
