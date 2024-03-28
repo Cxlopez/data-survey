@@ -136,16 +136,15 @@ function SurveyComponent() {
       {surveyCompleted && (
       
         <div className="charts-container">
+          <ResultsHeader/>
           <div className="doughnut-chart-container">
             <DoughnutChart overallAverage={overallAverage} />
           </div>
-          <ResultsHeader/>
           <div id="bar-chart-container" className="bar-chart-container">
             <BarChart averages={averages} industryAverages={industryAverages} />
           </div>
           {/* <button onClick={handlePrint}>Print Survey Report</button> */}
           <Results id="results-component" overallAverage={overallAverage} industryAverages={industryAverages}/>
-
         </div>
       )}
     </div>
