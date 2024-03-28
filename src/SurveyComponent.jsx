@@ -9,6 +9,7 @@ import { Chart } from 'chart.js/auto'; // Import Chart.js
 import { useReactToPrint } from 'react-to-print';
 import "./surveyComponent.css";
 import Results from './Results'
+import ResultsHeader from "./ResultsHeader";
 
 function SurveyComponent() {
   const [surveyModel, setSurveyModel] = useState(null);
@@ -133,10 +134,12 @@ function SurveyComponent() {
     <div>
       {surveyModel && <Survey model={surveyModel} />}
       {surveyCompleted && (
+      
         <div className="charts-container">
           <div className="doughnut-chart-container">
             <DoughnutChart overallAverage={overallAverage} />
           </div>
+          <ResultsHeader/>
           <div id="bar-chart-container" className="bar-chart-container">
             <BarChart averages={averages} industryAverages={industryAverages} />
           </div>

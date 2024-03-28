@@ -29,6 +29,10 @@ canvas {
   margin-top: 20px; /* Adjust margin as needed */
 }
 
+.bar-chart-container {
+  margin: 50px;
+}
+
 @media print {
   /* Adjust margins and other styles for printing */
   body {
