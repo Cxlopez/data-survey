@@ -248,6 +248,8 @@ const DoughnutChart = ({ overallAverage }) => {
   };
 
   const options = {
+    responsive: true,
+    maintainAspectRatio: true,
     layout: {
       padding: {
         left: 0, // Add left padding
