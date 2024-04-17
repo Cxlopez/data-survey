@@ -4,7 +4,7 @@ function Privacy() {
   return (
     <div>
       This Privacy Policy describes how we collect, use, and disclose
-      information collected from users ("you" or "your") of the Digital Needs
+      information collected from users ("you" or "your") of the Data
       Assessment Survey (the "Survey").
       <br></br>
       <br></br>

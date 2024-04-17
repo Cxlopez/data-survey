@@ -18,7 +18,7 @@
   height: 80%;
   width: 50%;
   overflow: scroll;
-  background-color: #112848;
+  background-color: #8B93FF;
   z-index: 9999;
 }
 
@@ -46,7 +46,7 @@
 /* CSS */
 .close-btn {
   appearance: button;
-  background-color: #f23005;
+  background-color: #5755FE;
   background-image: none;
   border: 1px solid #000;
   border-radius: 4px;

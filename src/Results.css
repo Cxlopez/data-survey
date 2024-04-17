@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   height: auto;
-  background-color: #112848;
+  background-color: #8B93FF;
   font-family: "PT sans", "Arial";
   font-size: 2rem;
   padding: 10px;
@@ -52,4 +52,6 @@
   font-size: .8rem;
   font-family: "PT sans", "Arial";
   margin: 0px 50px 25px 50px;
+  display: flex;
+  justify-content: center;
 }

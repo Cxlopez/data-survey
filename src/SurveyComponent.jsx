@@ -137,9 +137,9 @@ function SurveyComponent() {
       
         <div className="charts-container">
           <ResultsHeader/>
-          <div className="doughnut-chart-container">
+          {/* <div className="doughnut-chart-container">
             <DoughnutChart overallAverage={overallAverage} />
-          </div>
+          </div> */}
           <div id="bar-chart-container" className="bar-chart-container">
             <BarChart averages={averages} industryAverages={industryAverages} />
           </div>

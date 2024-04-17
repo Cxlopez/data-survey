@@ -12,7 +12,7 @@ function Results({ overallAverage, industryAverages }) {
       <div className='stage-description'>{description}</div>
       <div className="results-divider"></div>
       <div className="results-disclaimer">
-        Please be aware that this report was created for your use, using the information provided in your business self-assessment questionnaire. Therefore, Geo Digital Partners Canada does not take any responsibility or liability for how the report is used by your buesiness or any other individual or entity. 
+        Please be aware that this report was created for fun and not functional Data. 
       </div>
     </div>
   );

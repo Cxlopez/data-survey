@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "./assets/geoLogo-white.gif";
+import Logo from "./assets/Cristian-purp.png";
 
 
 
@@ -8,7 +8,7 @@ function Footer({ openPrivacyModal, openTermsModal }) {
   return (
     <div className="footer">
       <div className="logo-container">
-        <img className="geo-logo" alt="logo" src={Logo}></img>
+        <img className="cristian-logo" alt="logo" src={Logo}></img>
       </div>
       <div className="line-divider"></div>
       <div className="footer-links">
@@ -17,7 +17,7 @@ function Footer({ openPrivacyModal, openTermsModal }) {
         <span onClick={openTermsModal} style={{cursor: 'pointer'}}>Terms of Use</span>
       </div>
       <div className="copyright">
-        &copy; {new Date().getFullYear()} Geo Digital Partners. All rights reserved.
+        &copy; {new Date().getFullYear()} Cristian Sanchez Lopez.
       </div>
     </div>
   );

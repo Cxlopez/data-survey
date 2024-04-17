@@ -3,8 +3,7 @@ import React from "react";
 function Terms() {
   return (
     <div>
-      These Terms of Use ("Terms") govern your access to and use of the Digital
-      Needs Assessment Survey (the"Survey"). By accessing or using the Survey,
+      These Terms of Use ("Terms") govern your access to and use of the Data Assessment Survey (the"Survey"). By accessing or using the Survey,
       you agree to be bound by these Terms.
       <br></br>
       <br></br>
