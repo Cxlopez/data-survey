@@ -1,12 +1,12 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { Model } from "survey-core";
 import { Survey } from "survey-react-ui";
 import "survey-core/defaultV2.min.css";
 import { themeJson } from "./theme";
 import { json } from "./data/json";
-import { Bar, Doughnut } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import { Chart } from 'chart.js/auto'; // Import Chart.js
-import { useReactToPrint } from 'react-to-print';
+// import { useReactToPrint } from 'react-to-print';
 import "./surveyComponent.css";
 import Results from './Results'
 import ResultsHeader from "./ResultsHeader";
@@ -126,9 +126,9 @@ function SurveyComponent() {
     }
   };
 
-  const handlePrint = () => {
-    window.print(); // Trigger browser's print functionality
-  };
+  // const handlePrint = () => {
+  //   window.print(); // Trigger browser's print functionality
+  // };
 
   return (
     <div>
@@ -163,10 +163,10 @@ const BarChart = ({ averages, industryAverages }) => {
     page8: "Partners & Alliances"
   };
 
-  const combinedData = averages.flatMap(avg => [
-    { label: customPageNames[avg.label] || avg.label, average: avg.average },
-    { label: `${customPageNames[avg.label]} (Industry Avg)`, average: industryAverages[customPageNames[avg.label]] || 0 }
-  ]);
+  // const combinedData = averages.flatMap(avg => [
+  //   { label: customPageNames[avg.label] || avg.label, average: avg.average },
+  //   { label: `${customPageNames[avg.label]} (Industry Avg)`, average: industryAverages[customPageNames[avg.label]] || 0 }
+  // ]);
 
   const data = {
     labels: Object.keys(customPageNames).map(key => customPageNames[key]),
@@ -238,35 +238,35 @@ const BarChart = ({ averages, industryAverages }) => {
   );
 };
 
-const DoughnutChart = ({ overallAverage }) => {
-  const roundedAverage = overallAverage.toFixed(2);
-  const data = {
-    labels: ['Overall Average'],
-    datasets: [{
-      label: 'Overall Average',
-      data: [overallAverage],
-      backgroundColor: ['#E1AFD1']
-    }]
-  };
+// const DoughnutChart = ({ overallAverage }) => {
+//   const roundedAverage = overallAverage.toFixed(2);
+//   const data = {
+//     labels: ['Overall Average'],
+//     datasets: [{
+//       label: 'Overall Average',
+//       data: [overallAverage],
+//       backgroundColor: ['#E1AFD1']
+//     }]
+//   };
 
-  const options = {
-    responsive: true,
-    maintainAspectRatio: true,
-    layout: {
-      padding: {
-        left: 0, // Add left padding
-        right: 0 // Add right padding
-      }
-    }
-  };
+//   const options = {
+//     responsive: true,
+//     maintainAspectRatio: true,
+//     layout: {
+//       padding: {
+//         left: 0, // Add left padding
+//         right: 0 // Add right padding
+//       }
+//     }
+//   };
 
-  return (
-    <div className="doughnut-chart-container">
-      <Doughnut data={data} options={options} />
-      <p>Overall Average: {roundedAverage}</p>
-    </div>
-  );
-};
+//   return (
+//     <div className="doughnut-chart-container">
+//       <Doughnut data={data} options={options} />
+//       <p>Overall Average: {roundedAverage}</p>
+//     </div>
+//   );
+// };
 
 export default SurveyComponent;
 
